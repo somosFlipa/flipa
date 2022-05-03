@@ -1,0 +1,146 @@
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+// title
+.indexMainTitle {
+  background-image: url(../media/bg_home.png);
+  background-attachment: fixed;
+  background-size: cover;
+  color: $white;
+  padding: 10vh 0 6vh 6vw;
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 175px;
+    line-height: 11vw;
+    font-family: $oswald;
+  }
+  h2 {
+    margin: 2vh 0vh;
+    font-size: 3.7vw;
+  }
+  button {
+    background-color: $pink;
+    color: $white;
+    width: 30vw;
+    font-size: 2vw;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.2em;
+  }
+  button:hover{
+    background-color: $white;
+    color: #C90066;
+    border: solid 2px #C90066;
+  }
+}
+// 
+.first {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  // first
+  .indexMainTextWorks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+
+  }
+
+  .title {
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: $oswald;
+  }
+  svg{
+    margin-top: -50px;
+    margin-right: 20px;
+  }
+  // carrusel data
+  .titleDescription {
+    color: $white;
+    width: 40vw;
+    a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    a:hover{
+      color: #e878a2;
+    }
+    ul {
+      display: flex;
+      margin-left: -34px;
+      font-family: $oswald;
+      li {
+        text-decoration: none;
+        list-style: none;
+        margin-right: 30px;
+        position: relative;
+        display: block;
+        a {
+        position: relative;
+        display: block;
+        text-decoration:none;
+        color: #fff;
+        font-weight: 800;
+
+      }
+      }
+
+      a::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #C90066, #e878a2, #eb85ab);
+        z-index: 1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      a:hover::before {
+        transform: scaleX(1);
+      }
+
+    }
+  }
+  // columnas
+  .indexMainTextAboutWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 80px 3vw 3vw 3vw;
+    .indexMainTextAboutWorkDiv {
+      width: 20vw;
+      margin: 3vw;
+      h4 {
+        color: $pink;
+        font-size: 2vw;
+        font-weight: normal;
+      }
+      p {
+        color: $white;
+      }
+    }
+  }
+}
+
+
+.drop{
+width: 5vw;
+}

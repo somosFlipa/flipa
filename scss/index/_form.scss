@@ -1,0 +1,116 @@
+.indexMainFormSection {
+  background-color: $pink;
+  padding: 0vh 0 6vh 6vw;
+  padding-top: 100px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    margin-left: 50px;
+  }
+
+  .indexMainFormTitle {
+    color: $white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    h3 {
+      display: flex;
+      flex-direction: column;
+      font-size: 4vw;
+      font-weight: bold;
+      font-family: $oswald;
+    }
+    svg{
+      margin-top: -50px;
+      margin-right: 20px;
+    }
+  }
+.FormBtn{
+    background-color: $black;
+    color: $white;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 0.2em;
+    margin-top: 45px;
+}
+button:hover{
+  background-color: $white;
+  color: #C90066;
+  border: solid 2px #C90066;
+}
+}
+
+.firstLineForm {
+  display: flex;
+}
+.formFirstLine{
+  font-size: 30px;
+  input{
+    margin-top: 10px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  select{
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+}
+.formSecondLine {
+  display: flex;
+  margin-top: 30px;
+  font-size: 30px;
+  input{
+    margin-top: 10px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+}
+.cbox{
+  margin-top: 42px;
+  input{
+    width: 30px;
+    height: 30px;
+  }
+p{
+  margin-left: 35px;
+  font-size: 20px;
+  margin-top: -35px;
+}
+}
+textarea,
+input,
+select {
+  resize: none;
+  height: 21px;
+  background-color: $pink;
+  border-color: $black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: thin;
+  text-align: center;
+}
+input:focus,textarea:focus {
+  text-align: start;
+}
+::placeholder {
+  color: $white;
+}
+select {
+  background: $pink;
+  color: $white;
+  text-align: center;
+}
+select:hover {
+  background: $black;
+}

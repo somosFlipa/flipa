@@ -1,0 +1,352 @@
+@media screen and (max-width:768px){
+    header{
+        hr{
+            margin-left: 10px;
+
+        }
+        h1{
+            font-size: 32px;
+            margin-left: 10px;
+        }
+        h2{
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        p{
+            margin-left: 10px;
+            font-size: 12px; 
+            margin-right: -100px;   
+            width: 300px;  
+        }
+        .texto{
+            width: 300px;
+            p{
+            margin-left: 10px;
+            font-size: 12px; 
+            margin-right: -100px;   
+            width: 300px;            
+            }
+        }
+        button{ 
+            border: none;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 50px;
+            width: 200px;
+            height: 40px;
+            margin-top: 200px;
+            a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;                               
+            }
+            a:hover{
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+    nav{
+        height: 120px;
+        button{
+            justify-content: end;
+            margin-top: -50px;
+            z-index: 3;
+            .navbar-toggler.collapsed{
+                text-align: end;
+                margin-right: 20px;
+            }
+        
+        }    
+        }
+        main{
+
+            a.link{
+                p{
+                 margin-top: 80px;   
+                }
+            }
+            p.txt{
+                width: 250px;
+                height: 150px;
+                margin-right: 20px;
+                margin-top: 20px;
+                font-size: 12px;
+            }
+
+            section.indexMainTitle{
+                background-size: cover;
+                h1{
+                    font-size: 32px;
+                }
+                h2{
+                    font-size: 16px;
+                }
+            }
+            section.first{
+
+                display: grid;
+                margin-left: auto;
+                margin-right: auto;
+                .title{
+                    display: none;
+                }
+                .titleDescription{
+                    ul{
+                    .this{
+                        display: none;
+                    }    
+                    }
+                    
+                }
+                .titleDescription{
+                   ul{
+                     li{
+                       a {
+                        margin-right: -15px;
+                        font-size: 12px;
+
+                       }  
+                       .pad{
+                        width: 80px;    
+                        }   
+                     } 
+                   } 
+                } 
+                .indexMainTextWorks {
+                    display: flex;
+                    justify-content: start;
+                    margin-top: 50px;
+                    margin-left: 25px;
+                
+                  }
+                .indexMainTextAboutWork{
+                    display: none;
+                }
+
+            }
+            section.second{
+                .secondTexts {
+                    justify-content: start;
+                    margin-left: 15px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    }
+                    .secondDescription{
+                        ul{
+                            li{
+                              a {
+                               margin-right: -5px;
+                               font-size: 12px;
+                              }     
+                              
+                            } 
+                          } 
+                    }
+                    .secondTitle{
+
+                     h3{
+                         margin-left: -10px;
+                         margin-top: -50px;
+                        font-size: 32px;
+                        display:inline;
+                        width: 300px;
+                    }    
+                    }
+                    .secondDescription{
+                        margin-top: -90px;
+                    }
+                   
+            }
+            section.third{
+                margin-bottom: -100px;
+                .indexMainAboutWork{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    margin-top: -150px;
+                    margin-left: 25px;
+                }
+                .indexMainAboutWorkDescription{
+                    ul{
+                        li{
+                          a {
+                           margin-right: -15px;
+                           font-size: 12px;
+                          }
+                          .pad{
+                              width: 100px;
+                          }     
+                        } 
+                      }
+                }
+                h3{
+                    margin-top: -50px;
+                    margin-left: -10px;
+                   font-size: 32px;
+                   display:inline;
+                   width: 300px;
+               }
+               .indexMainAboutWorkDescription{
+                   margin-top: -80px;
+               }  
+            }
+            section.indexMainFormSection{
+                .indexMainFormTitle{
+                    margin-top: -100px;
+                    margin-left: 25px;
+                    h3{
+                        font-size: 32px;
+                        margin-top: -50px;
+
+                    }
+                }
+                form{
+                    display: flex;
+                    justify-content: start;
+                    margin-left: 25px;
+                    font-size: 14px;
+                    margin-right: 25px;
+                    margin-top: -20px;
+                    label{
+                        font-size: 18px;
+                    }
+                    input{
+                        font-size: 18px;
+                        margin-top: -10px;
+                    }
+                    .cbox{
+                        font-size: 18px;
+                        p{
+                            margin-top: -50px;
+                            margin-left: 50px;
+                        }
+                    }
+                }
+                .FormBtn{
+                    background-color: $black;
+                    color: $white;
+                    max-width: 250px;
+                    margin-top: 45px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            section.servicios{
+                .parent{
+                    display: grid;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-items: center;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: 5fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    margin-top: 100px;
+                    margin-bottom: 200px;
+                    .texto{
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .tarjeta{
+                    margin-top: 10px;
+                    .background{
+                        left: 170px;
+                        min-width: 300px;
+                        max-height:200px;
+                        z-index: 1;
+                    }
+                    .texto{
+                        margin-top: 50px;
+                        margin-left: 22px;
+                    p{
+                        background-color: #F6007C;
+                        color: #fff;
+                        width: 83px;
+                        height: 28px;
+                        text-align: center;
+                        padding-top: 5px;
+                    }
+                    h2{
+                        color: #fff;
+                        
+                    }
+                    button{
+                        background-color: transparent;
+                        border: none;
+                    }                    
+                    }
+                }
+            }
+            section.page{
+                .parent{
+                    display: grid;
+                    justify-items: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: 3fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    margin-bottom: 200px;
+                    // margin-top: -100px;
+                    div{
+                        margin-top: 10px;
+                        max-width: 400px;
+                        max-height: 420px;
+                        display: grid;
+                        text-align: start;
+                        h2{
+                            margin-left: 15px;   
+                        }
+                        p{
+                         font-size: 12px;   
+                         max-width: 300px;
+                         margin-left: 15px;
+                        }
+                        
+        
+                    }
+                }
+
+            }
+        }
+    footer.indexFooter{
+         .indexFooterLogoTextsContainer{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            a{
+                display: grid;
+                margin-left: auto;
+                margin-right: auto;
+                img.flipa{
+                    width: 195.16px;
+                    height: 55.87px;
+                    margin-left: 0;
+                }
+            }
+            .footerListsContainer{
+                margin-right: auto;
+                margin-left: auto;
+                font-size: 14px;
+            }
+            .end{
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            }
+    }

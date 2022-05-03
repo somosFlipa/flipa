@@ -1,0 +1,87 @@
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+.second {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  .secondTexts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3vw;
+  }
+
+  .secondTitle {
+    color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: $oswald;
+  }
+  svg{
+    margin-top: -50px;
+    margin-right: 20px;
+  }
+  
+  .secondDescription {
+    color: $black;
+    width: 40vw;
+
+    a{
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    a:hover{
+      color: #e878a2;
+    }
+    ul {
+      display: flex;
+      margin-left: -34px;
+      font-family: $oswald;
+      li {
+        text-decoration: none;
+        list-style: none;
+        margin-right: 30px;
+        font-weight: bold;
+        position: relative;
+        display: block;
+        a {
+        position: relative;
+        display: block;
+        text-decoration:none;
+        color: #161616;
+        font-weight: 800;
+
+      }
+      }
+
+      a::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #C90066, #F6007C, #FFE8F4);
+        z-index: 1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      a:hover::before {
+        transform: scaleX(1);
+      }
+
+    }
+  }
+}

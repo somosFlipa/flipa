@@ -1,0 +1,48 @@
+.indexFooter {
+  background-color: $black;
+.indexFooterLogoTextsContainer{
+display: flex;
+justify-content: space-around;
+}
+a{
+  img.flipa{
+    width: 390.33px;
+    height: 111.75px;
+    margin-top: 120px;
+    margin-left: 150px;
+  }
+}
+
+  .end{
+    margin-top:80px;
+    margin-left: 619px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+
+  } 
+}
+.footerListsContainer {
+  display: flex;
+  margin-right: 250px;
+  font-size: 18px;
+  margin-top: 80px;
+  .footerLists {
+
+margin: 1em;
+    h4 {
+      color: $pink;
+margin-bottom: 0.5em;
+    }
+    p {
+      color: $white;
+margin-bottom: 0.2em;
+    }
+    img{
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+
+}

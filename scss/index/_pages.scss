@@ -1,0 +1,206 @@
+main{
+    section.servicios{
+
+        .parent {
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+            justify-items: center;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            }
+            .tarjeta{
+                position: relative;
+                height: 100%;
+                display: flex;
+
+                a{
+                    text-decoration: none;
+                }
+                .background{
+                    left: 170px;
+                    width: 223.5px;
+                    height: 597px;
+                    z-index: 1;
+                }
+                .texto{
+                    margin-top: 450px;
+                    margin-left: 22px;
+                p{
+                    background-color: #F6007C;
+                    color: #fff;
+                    width: 83px;
+                    height: 28px;
+                    text-align: center;
+
+                }
+                h2{
+                    color: #fff;
+                    
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                }                    
+                }
+
+            }
+            .tarjeta.div1{
+                    background-image: url(../media/servicios/servicios_diseño.png);
+                }
+                .tarjeta.div2{
+                    background-image: url(../media/servicios/servicios_socialmedia.png);
+                }
+                .tarjeta.div3{
+                    background-image: url(../media/servicios/servicios_web.png);
+                }
+                .tarjeta.div4{
+                    background-image: url(../media/servicios/servicios_apps.png);
+                }
+                .tarjeta.div5{
+                    background-image: url(../media/servicios/servicios_ux.png);
+                }
+    }
+    section.proyectos{
+
+        .parent {
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+            justify-items: center;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            }
+            .tarjeta{
+                position: relative;
+                background-image: url(../media/servicios/social-media.jpg);
+                height: 100%;
+                display: flex;
+                a{
+                    text-decoration: none;
+                }
+                .background{
+                    left: 170px;
+                    width: 223.5px;
+                    height: 597px;
+                    z-index: 1;
+                }
+                .texto{
+                    margin-top: 450px;
+                    margin-left: 22px;
+                p{
+                    background-color: #F6007C;
+                    color: #fff;
+                    width: 83px;
+                    height: 28px;
+                    text-align: center;
+
+                }
+                h2{
+                    color: #fff;
+                    
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                }                    
+                }
+
+            }
+            .tarjeta.div1{
+                background-image: url(../media/servicios/servicios_diseño.png);
+            }
+            .tarjeta.div2{
+                background-image: url(../media/servicios/servicios_socialmedia.png);
+            }
+            .tarjeta.div3{
+                background-image: url(../media/servicios/servicios_web.png);
+            }
+            .tarjeta.div4{
+                background-image: url(../media/servicios/servicios_apps.png);
+            }
+    }
+    section.page{
+        .parent {
+            display: grid;
+            justify-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-bottom: 200px;
+            div{
+                margin-top: 200px;
+                width: 420px;
+                height: 500px;
+                display: grid;
+                text-align: start;
+
+
+            }
+                            
+            .flipart.div1{
+                background-image: url(../media/flipart/flipart_artistic.png);
+            }
+            .flipart.div2{
+                background-image: url(../media/flipart/flipart_branding.png);
+            }
+            .flipart.div3{
+                background-image: url(../media/flipart/flipart_socialmedia.png);
+            }
+            .marketing.div1{
+                background-image: url(../media/mkt/mkt_socialmedia.png);
+            }
+            .marketing.div2{
+                background-image: url(../media/mkt/mkt_campañas.png);
+            }
+            .marketing.div3{
+                background-image: url(../media/mkt/mkt_estrategias.png);
+            }
+            .desarrollo.div1{
+                background-image: url(../media/web/web_sitioweb.png);
+            }
+            .desarrollo.div2{
+                background-image: url(../media/web/web_landing.png);
+            }
+            .desarrollo.div3{
+                background-image: url(../media/web/web_wordpress.png);
+            }
+            .garage.div1{
+                background-image: url(../media/garage/garage_plataformas.png);
+            }
+            .garage.div2{
+                background-image: url(../media/garage/garage_apps.png);
+            }
+            .garage.div3{
+                background-image: url(../media/garage/garage_uxui.png);
+            }
+            h2{
+                margin-left: 37px;
+                font-size: 40px;
+                color: #fff;
+                margin-top: 200px;
+            }
+            p{
+                margin-left: 37px;
+                height: 260px;
+                width: 300px;
+
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/35px Helvetica LT Std;
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: #fff;
+
+            }
+            }
+    }
+}
