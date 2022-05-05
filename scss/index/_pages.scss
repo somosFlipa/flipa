@@ -203,4 +203,149 @@ main{
             }
             }
     }
+    section.sitios{
+        .desarrollo {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-flow: dense;
+            grid-template-rows: min-content;
+            margin-top: 100px;
+            }
+        .item:nth-child(2n){
+            grid-row: span 70;
+            grid-column: span 1;
+
+        }
+        .items1:nth-child(1n){
+            grid-row: span 45;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items2:nth-child(1n){
+            grid-row: span 70;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/scientech-sitio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items3:nth-child(1n){
+            grid-row: span 45;
+            background-image: url(../../media/adiches-tech/trex-sitio1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items4:nth-child(1n){
+            grid-row: span 70;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/go-sitio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items5:nth-child(1n){
+            grid-row: span 35;
+            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items6:nth-child(1n){
+            grid-row: span 70;
+            background-image: url(../../media/adiches-tech/plantilla-flipa-sitio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items7:nth-child(1n){
+            grid-row: span 70;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/panda-sitio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items8:nth-child(1n){
+            grid-row: span 70;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../media/adiches-tech/trex-sitio.png);
+        }
+        .items9:nth-child(1n){
+            grid-row: span 35;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
+        }
+        .items10:nth-child(1n){
+            grid-row: span 35;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../media/adiches-tech/flipa1-sitio.jpg);
+        }
+        .items11:nth-child(1n){
+            grid-row: span 35;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items12:nth-child(1n){
+            grid-row: span 70;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../media/adiches-tech/scientech-sitio.png);
+        }
+        .items13:nth-child(1n){
+            grid-row: span 35;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../media/adiches-tech/trex-sitio1.jpg);
+        }
+        .items14:nth-child(1n){
+            grid-row: span 70;
+            grid-column: span 1;
+            background-image: url(../../media/adiches-tech/go-sitio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items15:nth-child(1n){
+            grid-row: span 35;
+            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items16:nth-child(1n){
+            grid-row: span 35;
+            background-image: url(../../media/adiches-tech/flipa1-sitio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .items17:nth-child(1n){
+            grid-row: span 35;
+            grid-column: span 1;
+            background-color: #F6007C;
+        }
+        .items19:nth-child(1n){
+            grid-row: span 35;
+            background-color: aqua;
+        }
+        .items20:nth-child(1n){
+            grid-row: span 35;
+            background-color: aqua;
+        }
+        .items21:nth-child(1n){
+            grid-row: span 35;
+            background-color: aqua;
+        }
+        .items23:nth-child(1n){
+            grid-row: span 35;
+            background-color: aqua;
+        }
+        .items25:nth-child(1n){
+            grid-row: span 35;
+            background-color: aqua;
+        }
+.item:hover{
+    scale: none;
+}
+    }
 }

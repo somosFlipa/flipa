@@ -10,3 +10,32 @@
 @import './index/pages';
 @import './index/grilla';
 @import './index/responsive';
+
+.amarilloFlipa{
+    background-color: #FFCC00;
+    color: #fff;
+    font-weight: 800;
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 25px;
+
+
+}
+.titulo-hover{
+    font-size: 38px;
+    font-weight: 900;
+    color:#fff;
+    margin: 0px 0px 0px  25px;
+}
+
+.boton-bg{
+    background:none ;
+    border: none;
+    margin-left: 25px;
+}
+.destroy{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding-top: 50px;
+    height: 100%;
+}
+
