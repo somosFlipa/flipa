@@ -5,62 +5,62 @@ main{
     grid-template-columns: repeat(5, 1fr);
     grid-auto-flow: dense;
     grid-template-rows: min-content;
+    margin-top: 100px;
 }
 .items{
     background: #e878a2;
 }
-// .items:nth-child(3n){
-//     grid-column: span 1;
-//     grid-row: span 45;
-
-// }
-// .items:nth-child(1n){
-//     // background: #e878a2;
-//     grid-column: span 1;
-
-// }
-// .items:nth-child(2n){
-//     grid-row: span 80;
-    
-// }
-// .items:nth-child(7n){
-//     grid-row: span 80;
-// }
-
-// .items:nth-child(13n){
-//     grid-row: span 70;
-// }
-.item1{
-    display: none;
-}
-.item2:nth-child(1n){
+.item1:nth-child(1n){
     grid-row: span 60;
 
     background-repeat: no-repeat;
     background-size: cover;
 }
-.item3:nth-child(1n){
-    background-image: url(../media/grilla/asesor-logo.png);
+.item2:nth-child(1n){
+    grid-row: span 30;
+    background-image: url(../../media/grilla/lcv-logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    grid-row: span 35;
+}
+.item3:nth-child(1n){
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 60;
+}
+.item4:nth-child(1n){
+    grid-row: span 30;
+    background-image: url(../../media/grilla/efacultad-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .item5:nth-child(1n){
-    background-image: url(../../media/grilla/buenavida-logo.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 70;
+}
+.item6:nth-child(1n){
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 70;
+}
+.item7:nth-child(1n){
+    background-image: url(../../media/grilla/byr-logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: span 35;
 }
 .item8:nth-child(1n){
-    grid-row: span 35;
-    background-image: url(../../media/grilla/efacultad-logo.png);
+    grid-row: span 60;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item9:nth-child(1n){
-    grid-row: span 60;
+    grid-row: span 30;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../../media/grilla/buenavida-logo.png);
 }
 .item10:nth-child(1n){
     grid-row: span 60;
@@ -68,17 +68,28 @@ main{
     background-size: cover;
 }
 .item11:nth-child(1n){
-    grid-row: span 35;
+    grid-row: span 70;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .item12:nth-child(1n){
     grid-row: span 35;
-    background-image: url(../../media/grilla/byr-logo.png);
+    background-image: url(../../media/grilla/skupp-logo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.item13:nth-child(1n){
+    background-image: url(../../media/grilla/telgroup-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 30;
+}
+.item14:nth-child(1n){
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 70;
+}
 .item15:nth-child(1n){
     grid-row: span 35;
     background-image: url(../../media/grilla/i9-logo.png);
@@ -86,15 +97,31 @@ main{
     background-size: cover;
 }
 .item16:nth-child(1n){
-    grid-row: span 35;
-    background-image: url(../../media/grilla/lcv-logo.png);
+    grid-row: span 65;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
-.item19:nth-child(1n){
-    grid-row: span 35;
-    background-image: url(../../media/grilla/scientech-logo.png);
+.item17:nth-child(1n){
+    
     background-repeat: no-repeat;
     background-size: cover;
+    grid-row: span 60;
+}
+.item18:nth-child(1n){
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 50;
+}
+.item19:nth-child(1n){
+
+    display: none;
+}
+.item20:nth-child(1n){
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 30;
 }
 }

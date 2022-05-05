@@ -39,22 +39,22 @@
 
 </head>
 <header class="indexHeader">
-
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-              <img src="./media/icons/flipa-logo.png" alt="">
-    </a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><img src="./assets/icons8-menu-rounded-30.png" alt="nav">
-            
+          <a class="navbar-brand" href="index.html"><img src="./media/icons/flipa-logo.png" alt="flipa-logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="width: 50px; height: 50px;">
+            <span class="navbar-toggler-icon"><img src="./assets/icons8-menu-rounded-30.png" alt=""></span>
           </button>
-          <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html" style="color:#fff">Home</a>
-              <a class="nav-link" href="#first" style="color:#fff">QUÉ HACEMOS</a>
-              <a class="nav-link" href="#second" style="color:#fff">PROYECTOS</a>
-              <a class="nav-link" href="#third" style="color:#fff">CONTACTO</a>
-              <a class="nav-link" href="./pages/squad.html" style="color:#fff">QUIÉNES SOMOS</a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="nav-link" href="./pages/porfolio.html" style="color:#fff">QUÉ HACEMOS</a>
+                <a class="nav-link" href="#second" style="color:#fff">SERVICIOS</a>
+                <a class="nav-link" href="#third" style="color:#fff">CONTACTO</a>
+                <a class="nav-link none" href="./pages/squad.html" style="color:#fff">QUIÉNES SOMOS</a>
             </div>
           </div>
         </div>
@@ -134,37 +134,37 @@
                 <div id="textsContainerPorfolio">
                     <p class="txt">En el equipo de FLIPART creemos que <strong>lo visual va mucho más allá de lo superficial:</strong>  buscamos reflejar el ángel de tu negocio desde un aspecto visual y creativo y ayudarte a que no te quede ninguna duda acerca de quién sos como marca.</p>
                 </div>
-                <a href="./pages/porfolio.html" class="link"><p>MIRÁ TODO LO QUE HACEMOS <img src="./media/icons/icons8-circled-right-30.png" alt=""></p></a>
+                <a href="./pages/servicios.html" class="link"><p>MIRÁ TODO LO QUE HACEMOS <img src="./media/icons/icons8-circled-right-30.png" alt=""></p></a>
             </div>
         </div>
 
         <div class="glinder-contain multiple">
             <div class="glider">
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/asesor-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/buenavida-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/byr-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/efacultad-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/i9-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/lcv-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/scientech-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/skupp-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
-                <div class="imgCarrouselDiv"><img src="./assets/bg_home.png" alt="">
+                <div class="imgCarrouselDiv"><img src="./media/grilla/telgroup-logo.png" alt="">
                     <p>VER MÁS</p>
                 </div>
             </div>
@@ -203,34 +203,38 @@
       <rect x="168.672" y="16" width="128.602" height="120.659" rx="21" transform="rotate(43.249 168.672 16)" fill="black"/></svg></svg>
             <h3>ESCRIBINOS</h3>
         </div>
-
         <form>
-            <div class="formFirstLine">
-                <label for="name">Hola👋🏻, mi nombre es:</label>
-                <input type="text" id="nameForm" placeholder="Dejanos tu nombre">
-                <label for="mail">estoy interesadx en el servicio de</label>
-                <select id="teamForm" type="text">
-    <optgroup label="Marketing">
-      <option value="Instagram">Instagram</option>
-      <option value="TikTok">TikTok</option>
-    </optgroup>
-    <optgroup label="Desarrollo web">
-      <option value="Single Page">Single Page</option>
-      <option value="Ecommerce">Ecommerce</option>
- <option value="Web App">Web App</option>
-    </optgroup>
-  </select>
-            </div>
-            <div class="formSecondLine">
-                <label for="msg">Email:</label>
-                <input id="mailTo" placeholder="Dejanos tu email"> </input>
-            </div>
-            <div class="cbox">
-                <label><input type="checkbox" id="cbox"></label><p> He leído y estoy de acuerdo con los términos y condiciones</p>
-            </div>
-            
-            <button class="FormBtn" id="submit" onclick="sendMail()">ENVIAR</button>
-        </form>
+                    <div class="formFirstLine">
+                        <label for="name">Hola👋🏻, mi nombre es:</label>
+                        <input type="text" id="nameForm" placeholder="Dejanos tu nombre">
+                        <label for="mail">estoy interesadx en el servicio de</label>
+                        <select id="teamForm" type="text">
+            <optgroup label="Marketing">
+              <option value="Instagram">Instagram</option>
+              <option value="TikTok">TikTok</option>
+            </optgroup>
+            <optgroup label="Desarrollo web">
+              <option value="Single Page">Single Page</option>
+              <option value="Ecommerce">Ecommerce</option>
+         <option value="Web App">Web App</option>
+            </optgroup>
+          </select>
+                    </div>
+                    <div class="formSecondLine">
+                        <label for="msg">Email:</label>
+                        <input id="mailTo" placeholder="Dejanos tu email"> </input>
+                    </div>
+                    <div class="cbox">
+                        <label><input type="checkbox" id="cbox"></label>
+                        <p> He leído y estoy de acuerdo con los términos y condiciones</p>
+                    </div>
+        
+                    <button class="FormBtn" id="submit" onclick="sendMail()">ENVIAR</button>
+                </form>
+        
+                <div id="Conditions">
+                </div>
+        
     </section>
 
 </main>
@@ -238,14 +242,14 @@
     <div class="indexFooterLogoTextsContainer">
         <a href="index.html"><img src="./media/icons/flipa.png" alt="flipa" class="flipa"></a>
         <div class="footerListsContainer">
-            <div class="footerLists">
+            <div class="footerLists none">
                 <h4>SERVICIOS</h4>
                 <p>MARKETING</p>
                 <p>DISEÑO</p>
                 <p>DESARROLLO</p>
                 <p>UX/UI</p>
             </div>
-            <div class="footerLists">
+            <div class="footerLists none">
                 <h4>PORFOLIO</h4>
                 <p>MARKETING</p>
                 <p>DISEÑO</p>
@@ -256,7 +260,7 @@
                 <h4>CONTACTO</h4>
                 <p>hola@flipa.ar</p>
                 <p>(+54) 9 11 3073 4969</p>
-                <p><img src="./ui-kit/icons8-facebook-30.png" alt=""><img src="./ui-kit/icons8-linkedin-circled-30.png" alt=""><img src="./ui-kit/icons8-instagram-circle-30.png" alt=""><img src="./ui-kit/icons8-youtube-30.png" alt=""></p>
+                <p class="icons"><img src="./ui-kit/icons8-facebook-30.png" alt=""><img src="./ui-kit/icons8-linkedin-circled-30.png" alt=""><img src="./ui-kit/icons8-instagram-circle-30.png" alt=""><img src="./ui-kit/icons8-youtube-30.png" alt=""></p>
             </div>
         </div>
     </div>
@@ -276,6 +280,15 @@
 </script>
 <script src="./glider.min.js"></script>
 <script src="./app.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R82189WGZ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R82189WGZ2');
+</script>
 </body>
 
 </html>

@@ -5,7 +5,8 @@ let Name = document.querySelector('#nameForm')
 let Team = document.querySelector('#teamForm')
 let Mail = document.querySelector('#mailTo')
 let ButtonForm = document.getElementById('submit');
-let CheckboxForm = document.getElementById('cbox')
+let CheckboxForm = document.getElementById('cbox');
+let Conditions = document.querySelector("#Conditions");
 
 window.addEventListener("load", function() {
     new Glider(document.querySelector(".glider"), {
@@ -37,27 +38,28 @@ function Cards(paragraph, description) {
     }
 }
 
-ButtonForm.addEventListener('click', function(event) {
+ButtonForm.addEventListener("click", function(event) {
     event.preventDefault();
-    this.innerHTML = "Enviado!";
 });
 
-function sendMail(params) {
+function sendMail() {
     if (CheckboxForm.checked) {
-        console.log(Mail.value)
+        console.log(Mail.value);
         let tempParms = {
             from_name: Name.value,
             to_name: Team.value,
             mail: Mail.value,
-
-        }
-        emailjs.send('gmail', 'template_flipa', tempParms)
-            .then(function(res) {
-                console.log('success', res.status)
-            })
+        };
+        emailjs.send("gmail", "template_flipa", tempParms).then(function(res) {
+            console.log("success", res.status);
+            ButtonForm.innerHTML = "Enviado!";
+            Conditions.innerHTML = " ";
+        });
     } else {
-        console.log('tenes que aceptar los terminos y condiciones')
-
+        Conditions.innerHTML =
+            "<p>tenes que aceptar los terminos y condiciones</p>";
+        Conditions.style.color = "white";
     }
-
 }
+
+

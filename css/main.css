@@ -104,14 +104,16 @@ header .area {
   background-attachment: fixed;
   background-size: cover;
   color: #FFFFFF;
-  padding: 10vh 0 6vh 6vw; }
+  padding: 10vh 0 6vh 6vw;
+  padding-bottom: 200px; }
   .indexMainTitle h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 175px;
     line-height: 11vw;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    padding-top: 250px; }
   .indexMainTitle h2 {
     margin: 2vh 0vh;
     font-size: 3.7vw; }
@@ -484,7 +486,27 @@ select:hover {
       margin-right: 10px; }
 
 nav {
-  background-color: #161616; }
+  background-color: #161616;
+  height: 80px; }
+  nav .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 82px; }
+  nav .offcanvas {
+    width: 200px; }
+    nav .offcanvas .btn-close.text-reset {
+      margin-right: 10px;
+      margin-left: 150px; }
+    nav .offcanvas .nav-link:hover {
+      color: #C90066; }
+  nav .button .navbar-toggler {
+    width: 50px;
+    height: 50px; }
+  nav .offcanvas {
+    background-color: #161616; }
+  nav .container-fluid {
+    margin-top: -50px; }
 
 main section.servicios .parent {
   display: grid;
@@ -648,41 +670,60 @@ main .parent {
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-flow: dense;
-  grid-template-rows: min-content; }
+  grid-template-rows: min-content;
+  margin-top: 100px; }
 
 main .items {
   background: #e878a2; }
 
-main .item1 {
-  display: none; }
-
-main .item2:nth-child(1n) {
+main .item1:nth-child(1n) {
   grid-row: span 60;
   background-repeat: no-repeat;
   background-size: cover; }
 
+main .item2:nth-child(1n) {
+  grid-row: span 30;
+  background-image: url(../../media/grilla/lcv-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 main .item3:nth-child(1n) {
-  background-image: url(../media/grilla/asesor-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-row: span 35; }
+  grid-row: span 60; }
+
+main .item4:nth-child(1n) {
+  grid-row: span 30;
+  background-image: url(../../media/grilla/efacultad-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 main .item5:nth-child(1n) {
-  background-image: url(../../media/grilla/buenavida-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 70; }
+
+main .item6:nth-child(1n) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 70; }
+
+main .item7:nth-child(1n) {
+  background-image: url(../../media/grilla/byr-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
   grid-row: span 35; }
 
 main .item8:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/grilla/efacultad-logo.png);
+  grid-row: span 60;
   background-repeat: no-repeat;
   background-size: cover; }
 
 main .item9:nth-child(1n) {
-  grid-row: span 60;
+  grid-row: span 30;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url(../../media/grilla/buenavida-logo.png); }
 
 main .item10:nth-child(1n) {
   grid-row: span 60;
@@ -690,15 +731,26 @@ main .item10:nth-child(1n) {
   background-size: cover; }
 
 main .item11:nth-child(1n) {
-  grid-row: span 35;
+  grid-row: span 70;
   background-repeat: no-repeat;
   background-size: cover; }
 
 main .item12:nth-child(1n) {
   grid-row: span 35;
-  background-image: url(../../media/grilla/byr-logo.png);
+  background-image: url(../../media/grilla/skupp-logo.png);
   background-repeat: no-repeat;
   background-size: cover; }
+
+main .item13:nth-child(1n) {
+  background-image: url(../../media/grilla/telgroup-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 30; }
+
+main .item14:nth-child(1n) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 70; }
 
 main .item15:nth-child(1n) {
   grid-row: span 35;
@@ -707,28 +759,40 @@ main .item15:nth-child(1n) {
   background-size: cover; }
 
 main .item16:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/grilla/lcv-logo.png);
+  grid-row: span 65;
   background-repeat: no-repeat;
   background-size: cover; }
 
-main .item19:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/grilla/scientech-logo.png);
+main .item17:nth-child(1n) {
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  grid-row: span 60; }
+
+main .item18:nth-child(1n) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 50; }
+
+main .item19:nth-child(1n) {
+  display: none; }
+
+main .item20:nth-child(1n) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 30; }
 
 @media screen and (max-width: 768px) {
   header hr {
     margin-left: 10px; }
   header h1 {
     font-size: 32px;
-    margin-left: 10px; }
+    margin-left: 20px;
+    max-width: 300px; }
   header h2 {
     font-size: 18px;
-    margin-left: 10px; }
+    margin-left: 20px; }
   header p {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 12px;
     margin-right: -100px;
     width: 300px; }
@@ -739,42 +803,46 @@ main .item19:nth-child(1n) {
       font-size: 12px;
       margin-right: -100px;
       width: 300px; }
-  header button {
-    border: none;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 50px;
-    width: 200px;
-    height: 40px;
-    margin-top: 200px; }
-    header button a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 12px; }
-    header button a:hover {
-      font-size: 14px;
-      color: #fff; }
+  header .next {
+    display: none; }
   nav {
-    height: 120px; }
-    nav button {
-      justify-content: end;
-      margin-top: -50px;
-      z-index: 3; }
-      nav button .navbar-toggler.collapsed {
-        text-align: end;
-        margin-right: 20px; }
-  main a.link p {
-    margin-top: 80px; }
+    background-color: #161616;
+    max-height: 50px; }
+    nav .offcanvas {
+      width: 200px;
+      background-color: #161616; }
+    nav .container-fluid {
+      margin-top: -60px; }
+      nav .container-fluid .button {
+        z-index: 3; }
+        nav .container-fluid .button .navbar-toggler {
+          margin-top: 50px;
+          width: 70px; }
+          nav .container-fluid .button .navbar-toggler .navbar-toggler-icon {
+            margin-left: -30px; }
+      nav .container-fluid .navbar-brand img {
+        width: 30px;
+        height: 30px;
+        z-index: 3;
+        margin-left: 10px;
+        padding-left: 0px; }
+  main a.link {
+    display: none; }
+    main a.link p {
+      margin-top: 0px; }
   main p.txt {
     width: 250px;
     height: 150px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-left: 25px; }
   main section.indexMainTitle {
-    background-size: cover; }
+    background-size: cover;
+    padding-bottom: 50px; }
     main section.indexMainTitle h1 {
-      font-size: 32px; }
+      padding-top: 50px;
+      font-size: 42px; }
     main section.indexMainTitle h2 {
       font-size: 16px; }
   main section.first {
@@ -785,11 +853,13 @@ main .item19:nth-child(1n) {
       display: none; }
     main section.first .titleDescription ul .this {
       display: none; }
-    main section.first .titleDescription ul li a {
-      margin-right: -15px;
-      font-size: 12px; }
-    main section.first .titleDescription ul li .pad {
-      width: 80px; }
+    main section.first .titleDescription ul {
+      margin-left: -5px; }
+      main section.first .titleDescription ul li a {
+        margin-right: -15px;
+        font-size: 12px; }
+      main section.first .titleDescription ul li .pad {
+        width: 80px; }
     main section.first .indexMainTextWorks {
       display: flex;
       justify-content: start;
@@ -805,15 +875,19 @@ main .item19:nth-child(1n) {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px; }
-  main section.second .secondDescription ul li a {
-    margin-right: -5px;
-    font-size: 12px; }
-  main section.second .secondTitle h3 {
-    margin-left: -10px;
-    margin-top: -50px;
-    font-size: 32px;
-    display: inline;
-    width: 300px; }
+  main section.second .secondDescription ul {
+    margin-left: -5px; }
+    main section.second .secondDescription ul li a {
+      margin-right: -5px;
+      font-size: 12px; }
+  main section.second .secondTitle {
+    justify-content: start; }
+    main section.second .secondTitle h3 {
+      margin-left: -10px;
+      margin-top: -50px;
+      font-size: 32px;
+      display: inline;
+      width: 300px; }
   main section.second .secondDescription {
     margin-top: -90px; }
   main section.third {
@@ -824,13 +898,18 @@ main .item19:nth-child(1n) {
       grid-template-rows: repeat(2, 1fr);
       grid-column-gap: 0px;
       grid-row-gap: 0px;
-      margin-top: -150px;
+      margin-top: -100px;
       margin-left: 25px; }
-    main section.third .indexMainAboutWorkDescription ul li a {
-      margin-right: -15px;
-      font-size: 12px; }
-    main section.third .indexMainAboutWorkDescription ul li .pad {
-      width: 100px; }
+    main section.third .indexMainAboutWorkTitle {
+      margin-top: 50px;
+      justify-content: start; }
+    main section.third .indexMainAboutWorkDescription ul {
+      margin-left: -5px; }
+      main section.third .indexMainAboutWorkDescription ul li a {
+        margin-right: -15px;
+        font-size: 12px; }
+      main section.third .indexMainAboutWorkDescription ul li .pad {
+        width: 80px; }
     main section.third h3 {
       margin-top: -50px;
       margin-left: -10px;
@@ -851,7 +930,7 @@ main .item19:nth-child(1n) {
     margin-left: 25px;
     font-size: 14px;
     margin-right: 25px;
-    margin-top: -20px; }
+    margin-top: -50px; }
     main section.indexMainFormSection form label {
       font-size: 18px; }
     main section.indexMainFormSection form input {
@@ -865,7 +944,7 @@ main .item19:nth-child(1n) {
   main section.indexMainFormSection .FormBtn {
     background-color: #161616;
     color: #FFFFFF;
-    max-width: 250px;
+    max-width: 100px;
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto; }
@@ -886,11 +965,12 @@ main .item19:nth-child(1n) {
     margin-top: 10px; }
     main section.servicios .tarjeta .background {
       left: 170px;
-      min-width: 300px;
-      max-height: 200px;
-      z-index: 1; }
+      min-width: 321px;
+      max-height: 126px;
+      z-index: 1;
+      background-color: aqua; }
     main section.servicios .tarjeta .texto {
-      margin-top: 50px;
+      margin-top: 10px;
       margin-left: 22px; }
       main section.servicios .tarjeta .texto p {
         background-color: #F6007C;
@@ -913,40 +993,86 @@ main .item19:nth-child(1n) {
     grid-template-rows: 3fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-bottom: 200px; }
+    margin-bottom: 200px;
+    margin-top: 230px; }
     main section.page .parent div {
       margin-top: 10px;
-      max-width: 400px;
-      max-height: 420px;
+      width: 300px;
+      max-height: 130px;
       display: grid;
       text-align: start; }
       main section.page .parent div h2 {
-        margin-left: 15px; }
+        margin-top: 60px;
+        font-size: 18px; }
       main section.page .parent div p {
-        font-size: 12px;
-        max-width: 300px;
-        margin-left: 15px; }
-  footer.indexFooter .indexFooterLogoTextsContainer {
+        display: none; }
+    main section.page .parent .div3 {
+      margin-bottom: -100px; }
+  main section.proyectos .parent {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-left: auto;
-    margin-right: auto; }
-  footer.indexFooter a {
+    margin-top: 100px;
+    margin-bottom: 200px; }
+    main section.proyectos .parent .texto p {
+      font-size: 12px; }
+  main section.proyectos .tarjeta {
+    margin-top: 10px; }
+    main section.proyectos .tarjeta .background {
+      left: 170px;
+      min-width: 321px;
+      max-height: 126px;
+      z-index: 1;
+      background-color: aqua;
+      background-image: none; }
+    main section.proyectos .tarjeta .texto {
+      margin-top: 10px;
+      margin-left: 22px; }
+      main section.proyectos .tarjeta .texto p {
+        background-color: #F6007C;
+        color: #fff;
+        width: 83px;
+        height: 28px;
+        text-align: center;
+        padding-top: 5px; }
+      main section.proyectos .tarjeta .texto h2 {
+        color: #fff; }
+      main section.proyectos .tarjeta .texto button {
+        background-color: transparent;
+        border: none; }
+  footer.indexFooter {
     display: grid;
-    margin-left: auto;
-    margin-right: auto; }
-    footer.indexFooter a img.flipa {
-      width: 195.16px;
-      height: 55.87px;
-      margin-left: 0; }
-  footer.indexFooter .footerListsContainer {
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 14px; }
-  footer.indexFooter .end {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; } }
+    justify-items: start; }
+    footer.indexFooter .none {
+      display: none; }
+    footer.indexFooter .indexFooterLogoTextsContainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      justify-items: start; }
+    footer.indexFooter a {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto; }
+      footer.indexFooter a img.flipa {
+        width: 195.16px;
+        height: 55.87px;
+        margin-left: 25px; }
+    footer.indexFooter .footerLists {
+      margin-top: -50px; }
+      footer.indexFooter .footerLists .icons {
+        margin-top: 20px; }
+    footer.indexFooter .footerListsContainer {
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 14px; }
+    footer.indexFooter .end {
+      margin-top: 10px;
+      margin-left: 40px; } }
