@@ -113,7 +113,7 @@ header .area {
     font-size: 175px;
     line-height: 11vw;
     font-family: "Oswald", sans-serif;
-    padding-top: 250px; }
+    padding-top: 150px; }
   .indexMainTitle h2 {
     margin: 2vh 0vh;
     font-size: 3.7vw; }
@@ -372,7 +372,7 @@ header .area {
       font-weight: bold;
       font-family: "Oswald", sans-serif; }
     .indexMainFormSection .indexMainFormTitle svg {
-      margin-top: -50px;
+      margin-top: 0px;
       margin-right: 20px; }
   .indexMainFormSection .FormBtn {
     background-color: #161616;
@@ -807,6 +807,9 @@ main section.sitios .items25:nth-child(1n) {
 main section.sitios .item:hover {
   scale: none; }
 
+main .proximamente {
+  width: 100%; }
+
 main .parent {
   display: grid;
   grid-gap: 5px;
@@ -1062,10 +1065,14 @@ main .item20:nth-child(1n) {
       margin-top: -80px; }
   main section.indexMainFormSection .indexMainFormTitle {
     margin-top: -100px;
-    margin-left: 25px; }
+    margin-left: 5px; }
     main section.indexMainFormSection .indexMainFormTitle h3 {
       font-size: 32px;
-      margin-top: -50px; }
+      margin-top: -50px;
+      margin-left: -10px; }
+    main section.indexMainFormSection .indexMainFormTitle svg {
+      margin-top: -60px;
+      margin-right: 20px; }
   main section.indexMainFormSection form {
     display: flex;
     justify-content: start;
@@ -1087,9 +1094,7 @@ main .item20:nth-child(1n) {
     background-color: #161616;
     color: #FFFFFF;
     max-width: 100px;
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto; }
+    margin-top: 45px; }
   main section.servicios .parent {
     display: grid;
     margin-left: auto;

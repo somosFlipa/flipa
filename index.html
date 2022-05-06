@@ -12,8 +12,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/glider.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/glider.min.css">
+        <link rel="stylesheet" href="./css/main.css">
 
     <title>Somos FLIPA.AR</title>
     <meta property="og:locale" content="es_ES"/>
@@ -35,8 +35,23 @@
     <!-- favi -->
     <link rel="shortcut icon" href="media/icons/Perfil_Lk.png">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- imagen miniatura  -->
+  <meta property="og:image" content="https://i.imgur.com/6cA4mOG.png" /> <!-- (aun falta la imagen) -->
+  <!-- modificacion de imagen -->
+  <meta property="og:image:width" content="500"  />
+  <meta property="og:image:height" content="500" />
+  <meta property="og:image:type" content="image/png" />
+  <!-- imagen miniatura / fin -->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R82189WGZ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-R82189WGZ2');
+</script>
 </head>
 <header class="indexHeader">
     <nav class="navbar fixed-top">
@@ -52,7 +67,7 @@
             </div>
             <div class="offcanvas-body">
                 <a class="nav-link" href="./pages/porfolio.html" style="color:#fff">QUÉ HACEMOS</a>
-                <a class="nav-link" href="#second" style="color:#fff">SERVICIOS</a>
+                <a class="nav-link" href="#first" onclick="Cards(1,'Nos encargamos de acompañarte en los primeros pasos de digitalización de tu negocio y de potenciar tu marca desde diferentes áreas para lograr una forma de trabajo integral. Contamos con diversos equipos de profesionales que se encargan de desarrollo web, diseño UX/UI, marketing digital, diseño gráfico. La visión que te ofrecemos es interdisciplinaria.')" style="color:#fff">SERVICIOS</a>
                 <a class="nav-link" href="#third" style="color:#fff">CONTACTO</a>
                 <a class="nav-link none" href="./pages/squad.html" style="color:#fff">QUIÉNES SOMOS</a>
             </div>
@@ -280,15 +295,7 @@
 </script>
 <script src="./glider.min.js"></script>
 <script src="./app.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R82189WGZ2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-R82189WGZ2');
-</script>
 </body>
 
 </html>
