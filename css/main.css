@@ -31,7 +31,7 @@ header hr {
   height: 5px;
   width: 100px;
   color: #F6007C;
-  margin-left: 170px;
+  margin-left: 82px;
   margin-top: 130px;
   margin-bottom: -150px; }
 
@@ -63,28 +63,36 @@ header button {
     color: #fff; }
 
 header h1.flipart {
-  color: #C20800; }
+  color: #C20800;
+  margin-left: 82px; }
 
 header button.flipart {
-  background-color: #C20800; }
+  background-color: #C20800;
+  margin-left: 82px; }
 
 header h1.marketing {
-  color: #BC38FF; }
+  color: #BC38FF;
+  margin-left: 82px; }
 
 header button.marketing {
-  background-color: #BC38FF; }
+  background-color: #BC38FF;
+  margin-left: 82px; }
 
 header h1.desarrollo {
-  color: #FFCC00; }
+  color: #FFCC00;
+  margin-left: 82px; }
 
 header button.desarrollo {
-  background-color: #FFCC00; }
+  background-color: #FFCC00;
+  margin-left: 82px; }
 
 header h1.garage {
-  color: #1B46F4; }
+  color: #1B46F4;
+  margin-left: 82px; }
 
 header button.garage {
-  background-color: #1B46F4; }
+  background-color: #1B46F4;
+  margin-left: 82px; }
 
 header .area {
   background-color: black;
@@ -97,7 +105,16 @@ header .area {
   margin-top: 200px;
   margin-bottom: -120px;
   padding: 30px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  margin-left: 85px; }
+
+header p {
+  margin-left: 82px; }
+
+header h1.sale {
+  color: #F6007C;
+  width: 100%;
+  margin-left: 82px; }
 
 .indexMainTitle {
   background-image: url(../media/bg_home.png);
@@ -110,7 +127,7 @@ header .area {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 175px;
+    font-size: 11vw;
     line-height: 11vw;
     font-family: "Oswald", sans-serif;
     padding-top: 150px; }
@@ -120,9 +137,9 @@ header .area {
   .indexMainTitle button {
     background-color: #f6007c;
     color: #FFFFFF;
-    width: 30vw;
-    font-size: 2vw;
-    padding: 1vw;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
     border: none;
     border-radius: 0.2em; }
   .indexMainTitle button:hover {
@@ -668,7 +685,7 @@ main section.page .parent {
 main section.sitios .desarrollo {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-auto-flow: dense;
   grid-template-rows: min-content;
   margin-top: 100px; }
@@ -677,140 +694,242 @@ main section.sitios .item:nth-child(2n) {
   grid-row: span 70;
   grid-column: span 1; }
 
+main section.sitios .item:hover:nth-child(1n) {
+  grid-column: span 1; }
+
 main section.sitios .items1:nth-child(1n) {
-  grid-row: span 45;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-row: span 35;
+  grid-column: span 1; }
 
 main section.sitios .items2:nth-child(1n) {
   grid-row: span 70;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/scientech-sitio.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items3:nth-child(1n) {
-  grid-row: span 45;
-  background-image: url(../../media/adiches-tech/trex-sitio1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-row: span 35; }
 
 main section.sitios .items4:nth-child(1n) {
   grid-row: span 70;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/go-sitio.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items5:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-row: span 35; }
 
 main section.sitios .items6:nth-child(1n) {
-  grid-row: span 70;
-  background-image: url(../../media/adiches-tech/plantilla-flipa-sitio.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-row: span 70; }
 
 main section.sitios .items7:nth-child(1n) {
   grid-row: span 70;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/panda-sitio.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items8:nth-child(1n) {
-  grid-row: span 70;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/adiches-tech/trex-sitio.png); }
+  grid-row: span 70; }
 
 main section.sitios .items9:nth-child(1n) {
-  grid-row: span 35;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/adiches-tech/aysen-sitio.jpg); }
+  grid-row: span 35; }
 
 main section.sitios .items10:nth-child(1n) {
-  grid-row: span 35;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/adiches-tech/flipa1-sitio.jpg); }
+  grid-row: span 35; }
 
 main section.sitios .items11:nth-child(1n) {
   grid-row: span 35;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items12:nth-child(1n) {
   grid-row: span 70;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/adiches-tech/scientech-sitio.png); }
+  grid-column: span 1; }
 
 main section.sitios .items13:nth-child(1n) {
   grid-row: span 35;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/adiches-tech/trex-sitio1.jpg); }
+  grid-column: span 1; }
 
 main section.sitios .items14:nth-child(1n) {
   grid-row: span 70;
-  grid-column: span 1;
-  background-image: url(../../media/adiches-tech/go-sitio.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items15:nth-child(1n) {
   grid-row: span 35;
-  background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1; }
 
 main section.sitios .items16:nth-child(1n) {
   grid-row: span 35;
-  background-image: url(../../media/adiches-tech/flipa1-sitio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  grid-column: span 1;
+  background-image: url(../media/adiches-tech/plantilla-flipa-sitio.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 main section.sitios .items17:nth-child(1n) {
   grid-row: span 35;
   grid-column: span 1;
-  background-color: #F6007C; }
+  background-image: url(../media/adiches-tech/panda-sitio.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-main section.sitios .items19:nth-child(1n) {
+main section.sitios .items18:nth-child(1n) {
   grid-row: span 35;
-  background-color: aqua; }
-
-main section.sitios .items20:nth-child(1n) {
-  grid-row: span 35;
-  background-color: aqua; }
-
-main section.sitios .items21:nth-child(1n) {
-  grid-row: span 35;
-  background-color: aqua; }
-
-main section.sitios .items23:nth-child(1n) {
-  grid-row: span 35;
-  background-color: aqua; }
-
-main section.sitios .items25:nth-child(1n) {
-  grid-row: span 35;
-  background-color: aqua; }
+  grid-column: span 1;
+  background-image: url(../media/adiches-tech/trex-sitio.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 main section.sitios .item:hover {
   scale: none; }
 
+main section.sitios .div-imagen {
+  display: inline-block;
+  position: relative; }
+  main section.sitios .div-imagen a {
+    text-decoration: none; }
+  main section.sitios .div-imagen img {
+    max-width: 100%;
+    max-height: 100%; }
+
+main section.sitios .grande {
+  width: 100%;
+  height: 100%; }
+
+main section.sitios .grande:hover .este {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+main section.sitios .grande:hover .textos {
+  display: block;
+  position: relative;
+  padding-bottom: 30px; }
+  main section.sitios .grande:hover .textos a {
+    text-decoration: none;
+    color: #fff; }
+
+main section.sitios .textos {
+  display: none; }
+
+main section.sitios .div-imagen > div {
+  position: absolute; }
+
 main .proximamente {
   width: 100%; }
 
-main .parent {
+main section.sale-first .contenido {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+main section.sale-first .texto {
+  width: 445px;
+  margin-left: 100px; }
+  main section.sale-first .texto h4 {
+    width: 245px;
+    text-align: start;
+    font-size: 26px; }
+    main section.sale-first .texto h4 span {
+      color: #F6007C; }
+  main section.sale-first .texto p {
+    font-family: "Lato", sans-serif; }
+  main section.sale-first .texto ul li {
+    font-family: "Lato", sans-serif; }
+  main section.sale-first .texto button {
+    background-color: #F6007C;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; }
+  main section.sale-first .texto button:hover {
+    background-color: #fff;
+    border: solid 2px #F6007C;
+    color: #F6007C; }
+  main section.sale-first .texto .tachado {
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: line-through #F6007C;
+    font-family: "Oswald", sans-serif; }
+  main section.sale-first .texto .oferta {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F6007C;
+    font-family: "Oswald", sans-serif; }
+
+main section.sale-first .foto {
+  margin-left: 100px;
+  width: 500px;
+  background: yellow; }
+
+main section.sale-first .div-imagen {
+  display: inline-block;
+  position: relative; }
+  main section.sale-first .div-imagen a {
+    text-decoration: none; }
+  main section.sale-first .div-imagen img {
+    max-width: 100%;
+    max-height: 100%; }
+
+main section.sale-first .grande {
+  width: 100%;
+  height: 100%; }
+
+main section.sale-first .grande:hover .este {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+main section.sale-first .grande:hover .textos {
+  display: block;
+  position: relative;
+  padding-bottom: 30px; }
+  main section.sale-first .grande:hover .textos a {
+    text-decoration: none;
+    color: #fff; }
+
+main section.sale-first .textos {
+  display: none; }
+
+main section.sale-first .div-imagen > div {
+  position: absolute; }
+
+.amarilloFlipa {
+  background-color: #FFCC00;
+  color: #fff;
+  font-weight: 800;
+  width: 100px;
+  text-align: center;
+  margin: 50px 0px 0px 25px; }
+
+.titulo-hover {
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  margin: 0px 0px 20px 25px; }
+
+.arrow {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px; }
+
+.grande {
+  display: flex;
+  justify-content: end;
+  flex-direction: column; }
+
+.rosaFlipa {
+  background-color: #F6007C;
+  color: #fff;
+  font-weight: 800;
+  width: 100px;
+  text-align: center;
+  margin: 50px 0px 0px 25px; }
+
+main section.firstDesign .parent {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
@@ -818,113 +937,99 @@ main .parent {
   grid-template-rows: min-content;
   margin-top: 100px; }
 
-main .items {
-  background: #e878a2; }
+main section.firstDesign .item1:nth-child(1n) {
+  grid-row: span 25;
+  grid-column: span 1; }
 
-main .item1:nth-child(1n) {
-  grid-row: span 60;
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item2:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item2:nth-child(1n) {
-  grid-row: span 30;
-  background-image: url(../../media/grilla/lcv-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item3:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item3:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 60; }
+main section.firstDesign .item4:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item4:nth-child(1n) {
-  grid-row: span 30;
-  background-image: url(../../media/grilla/efacultad-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item5:nth-child(1n) {
+  grid-row: span 25; }
 
-main .item5:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 70; }
+main section.firstDesign .item6:nth-child(1n) {
+  grid-row: span 20; }
 
-main .item6:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 70; }
+main section.firstDesign .item7:nth-child(1n) {
+  grid-row: span 25; }
 
-main .item7:nth-child(1n) {
-  background-image: url(../../media/grilla/byr-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 35; }
+main section.firstDesign .item8:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item8:nth-child(1n) {
-  grid-row: span 60;
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item9:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item9:nth-child(1n) {
-  grid-row: span 30;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../media/grilla/buenavida-logo.png); }
+main section.firstDesign .item10:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item10:nth-child(1n) {
-  grid-row: span 60;
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item11:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item11:nth-child(1n) {
-  grid-row: span 70;
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item12:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item12:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/grilla/skupp-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item13:nth-child(1n) {
+  grid-row: span 5; }
 
-main .item13:nth-child(1n) {
-  background-image: url(../../media/grilla/telgroup-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 30; }
+main section.firstDesign .item14:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item14:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 70; }
+main section.firstDesign .item15:nth-child(1n) {
+  grid-row: span 15; }
 
-main .item15:nth-child(1n) {
-  grid-row: span 35;
-  background-image: url(../../media/grilla/i9-logo.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item16:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item16:nth-child(1n) {
-  grid-row: span 65;
-  background-repeat: no-repeat;
-  background-size: cover; }
+main section.firstDesign .item17:nth-child(1n) {
+  grid-row: span 10; }
 
-main .item17:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 60; }
+main section.firstDesign .div-imagen {
+  display: inline-block;
+  position: relative; }
+  main section.firstDesign .div-imagen a {
+    text-decoration: none; }
+  main section.firstDesign .div-imagen img {
+    max-width: 100%;
+    max-height: 100%; }
 
-main .item18:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 50; }
+main section.firstDesign .grande {
+  width: 100%;
+  height: 100%; }
 
-main .item19:nth-child(1n) {
+main section.firstDesign .grande:hover .este {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+main section.firstDesign .grande:hover .textos {
+  display: block;
+  position: relative;
+  padding-bottom: 30px; }
+  main section.firstDesign .grande:hover .textos a {
+    text-decoration: none;
+    color: #fff; }
+
+main section.firstDesign .textos {
   display: none; }
 
-main .item20:nth-child(1n) {
-  background-repeat: no-repeat;
-  background-size: cover;
-  grid-row: span 30; }
+main section.firstDesign .div-imagen > div {
+  position: absolute; }
+
+main section.firstDesign .rojoFlipa {
+  background-color: #C20800;
+  color: #fff;
+  font-weight: 800;
+  width: 100px;
+  text-align: center;
+  margin: 50px 0px 0px 25px; }
 
 @media screen and (max-width: 768px) {
   header hr {
@@ -1223,27 +1328,3 @@ main .item20:nth-child(1n) {
     footer.indexFooter .end {
       margin-top: 10px;
       margin-left: 40px; } }
-
-.amarilloFlipa {
-  background-color: #FFCC00;
-  color: #fff;
-  font-weight: 800;
-  width: 50%;
-  text-align: center;
-  margin: 0px 0px 0px 25px; }
-
-.titulo-hover {
-  font-size: 38px;
-  font-weight: 900;
-  color: #fff;
-  margin: 0px 0px 0px  25px; }
-
-.boton-bg {
-  background: none;
-  border: none;
-  margin-left: 25px; }
-
-.destroy {
-  background-color: rgba(0, 0, 0, 0.466);
-  padding-top: 50px;
-  height: 100%; }

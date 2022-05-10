@@ -1,4 +1,5 @@
 main{
+    section.firstDesign{
 .parent{
     display: grid;
     grid-gap: 5px;
@@ -7,120 +8,112 @@ main{
     grid-template-rows: min-content;
     margin-top: 100px;
 }
-.items{
-    background: #e878a2;
-}
+
 .item1:nth-child(1n){
-    grid-row: span 60;
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 25;
+    grid-column: span 1;
 }
 .item2:nth-child(1n){
-    grid-row: span 30;
-    background-image: url(../../media/grilla/lcv-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 5;
 }
 .item3:nth-child(1n){
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 60;
+    grid-row: span 5;
 }
 .item4:nth-child(1n){
-    grid-row: span 30;
-    background-image: url(../../media/grilla/efacultad-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 5;
 }
 .item5:nth-child(1n){
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 70;
+    grid-row: span 25;
 }
 .item6:nth-child(1n){
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 70;
+    grid-row: span 20;
 }
 .item7:nth-child(1n){
-    background-image: url(../../media/grilla/byr-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 35;
+    grid-row: span 25;
 }
 .item8:nth-child(1n){
-    grid-row: span 60;
-
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 10;
 }
 .item9:nth-child(1n){
-    grid-row: span 30;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../../media/grilla/buenavida-logo.png);
+    grid-row: span 10;
 }
 .item10:nth-child(1n){
-    grid-row: span 60;
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 5;
 }
 .item11:nth-child(1n){
-    grid-row: span 70;
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 10;
 }
 .item12:nth-child(1n){
-    grid-row: span 35;
-    background-image: url(../../media/grilla/skupp-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 5;
 }
 .item13:nth-child(1n){
-    background-image: url(../../media/grilla/telgroup-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 30;
+    grid-row: span 5;
 }
 .item14:nth-child(1n){
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 70;
+    grid-row: span 10;
 }
 .item15:nth-child(1n){
-    grid-row: span 35;
-    background-image: url(../../media/grilla/i9-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 15;
 }
 .item16:nth-child(1n){
-    grid-row: span 65;
-
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-row: span 10;
 }
 .item17:nth-child(1n){
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 60;
+    grid-row: span 10;
 }
-.item18:nth-child(1n){
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 50;
-}
-.item19:nth-child(1n){
 
-    display: none;
+.div-imagen {
+    a{
+        text-decoration: none;
+    }
+    display:inline-block;
+    position:relative;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+  }
+  .grande{
+      width: 100%;
+      height: 100%;
+  }
+  .grande:hover{
+   .este{
+    position:absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+  }
+  .textos{
+      display: block;
+      position: relative;
+      padding-bottom: 30px;
+      a{
+          text-decoration: none;
+          color: #fff;
+      }
+  }     
+  }
+  .textos{
+      display: none;
+  }
+
+  
+  .div-imagen > div {
+    position: absolute;
+
+  }
+  .rojoFlipa{
+    background-color: #C20800;
+    color: #fff;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 25px;
+
+  }
 }
-.item20:nth-child(1n){
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: span 30;
-}
+        
 }

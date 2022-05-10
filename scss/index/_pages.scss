@@ -1,3 +1,6 @@
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
 main{
     section.servicios{
 
@@ -207,145 +210,297 @@ main{
         .desarrollo {
             display: grid;
             grid-gap: 5px;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             grid-auto-flow: dense;
             grid-template-rows: min-content;
             margin-top: 100px;
             }
-        .item:nth-child(2n){
-            grid-row: span 70;
-            grid-column: span 1;
+            .item:nth-child(2n){
+                grid-row: span 70;
+                grid-column: span 1;
 
-        }
+            }
+            .item:hover:nth-child(1n){
+                grid-column: span 1;
+            }
         .items1:nth-child(1n){
-            grid-row: span 45;
+            grid-row: span 35;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         .items2:nth-child(1n){
             grid-row: span 70;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/scientech-sitio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         .items3:nth-child(1n){
-            grid-row: span 45;
-            background-image: url(../../media/adiches-tech/trex-sitio1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            grid-row: span 35;
         }
         .items4:nth-child(1n){
             grid-row: span 70;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/go-sitio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         .items5:nth-child(1n){
             grid-row: span 35;
-            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+
         }
         .items6:nth-child(1n){
             grid-row: span 70;
-            background-image: url(../../media/adiches-tech/plantilla-flipa-sitio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
+
         }
         .items7:nth-child(1n){
             grid-row: span 70;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/panda-sitio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
+
         }
         .items8:nth-child(1n){
             grid-row: span 70;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../../media/adiches-tech/trex-sitio.png);
         }
         .items9:nth-child(1n){
             grid-row: span 35;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
         }
         .items10:nth-child(1n){
             grid-row: span 35;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../../media/adiches-tech/flipa1-sitio.jpg);
+
         }
         .items11:nth-child(1n){
             grid-row: span 35;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/asesor-sitio.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+
         }
         .items12:nth-child(1n){
             grid-row: span 70;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../../media/adiches-tech/scientech-sitio.png);
+            grid-column: span 1;
         }
         .items13:nth-child(1n){
             grid-row: span 35;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../../media/adiches-tech/trex-sitio1.jpg);
+            grid-column: span 1;
         }
         .items14:nth-child(1n){
             grid-row: span 70;
             grid-column: span 1;
-            background-image: url(../../media/adiches-tech/go-sitio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
+
         }
         .items15:nth-child(1n){
             grid-row: span 35;
-            background-image: url(../../media/adiches-tech/aysen-sitio.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            grid-column: span 1;
         }
         .items16:nth-child(1n){
             grid-row: span 35;
-            background-image: url(../../media/adiches-tech/flipa1-sitio.jpg);
-            background-repeat: no-repeat;
+            grid-column: span 1;
+            background-image: url(../media/adiches-tech/plantilla-flipa-sitio.png);
             background-size: cover;
+            background-repeat: no-repeat;
+
         }
         .items17:nth-child(1n){
             grid-row: span 35;
             grid-column: span 1;
-            background-color: #F6007C;
+            background-image: url(../media/adiches-tech/panda-sitio.png);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
-        .items19:nth-child(1n){
+        .items18:nth-child(1n){
             grid-row: span 35;
-            background-color: aqua;
+            grid-column: span 1;
+            background-image: url(../media/adiches-tech/trex-sitio.png);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
-        .items20:nth-child(1n){
-            grid-row: span 35;
-            background-color: aqua;
-        }
-        .items21:nth-child(1n){
-            grid-row: span 35;
-            background-color: aqua;
-        }
-        .items23:nth-child(1n){
-            grid-row: span 35;
-            background-color: aqua;
-        }
-        .items25:nth-child(1n){
-            grid-row: span 35;
-            background-color: aqua;
-        }
+
 .item:hover{
     scale: none;
 }
+.div-imagen {
+    a{
+        text-decoration: none;
     }
+    display:inline-block;
+    position:relative;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+  }
+  .grande{
+      width: 100%;
+      height: 100%;
+  }
+  .grande:hover{
+   .este{
+    position:absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+  }
+  .textos{
+      display: block;
+      position: relative;
+      padding-bottom: 30px;
+      a{
+          text-decoration: none;
+          color: #fff;
+      }
+  }     
+  }
+  .textos{
+      display: none;
+  }
+
+  
+  .div-imagen > div {
+    position: absolute;
+
+  }
+  
+    }
+    
+.proximamente {
+    width: 100%; 
+}
+section.sale-first{
+    .contenido {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        .texto{
+            width: 445px;
+            margin-left: 100px;
+            h4{
+                width: 245px;
+                text-align: start;
+                font-size: 26px;
+                span{
+                    color: #F6007C;
+                }
+            }
+            p{
+                font-family: $lato;
+            }
+            ul{
+                li{
+                font-family: $lato;                    
+                }
+
+            }
+            button{
+                background-color: #F6007C;
+                border: none;
+                border-radius: 5px;
+                width: 250px;
+                height: 50px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color:#fff;
+                border: solid 2px #F6007C;
+                color:#F6007C;
+            }
+            .tachado{
+                font-size: 21px;
+                font-weight: bold;
+                text-decoration: line-through #F6007C;
+                font-family: $oswald;
+            }
+            .oferta{
+                font-size: 48px;
+                font-weight: bold;
+                color: #F6007C;
+                font-family: $oswald;
+            }
+        }
+        .foto{
+            margin-left: 100px;
+            width: 500px;
+            background: yellow;    
+        }
+        .div-imagen {
+            a{
+                text-decoration: none;
+            }
+            display:inline-block;
+            position:relative;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+          }
+          .grande{
+              width: 100%;
+              height: 100%;
+          }
+          .grande:hover{
+           .este{
+            position:absolute;
+            opacity: 0.5;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+        
+          }
+          .textos{
+              display: block;
+              position: relative;
+              padding-bottom: 30px;
+              a{
+                  text-decoration: none;
+                  color: #fff;
+              }
+          }     
+          }
+          .textos{
+              display: none;
+          }
+        
+          
+          .div-imagen > div {
+            position: absolute;
+        
+          }
+}
+}
+.amarilloFlipa{
+    background-color: #FFCC00;
+    color: #fff;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 25px;
+
+
+}
+.titulo-hover{
+    font-size: 25px;
+    font-weight: 900;
+    color:#fff;
+    margin: 0px 0px 20px 25px;
+}
+
+.arrow{
+    margin-top: 50px;    
+    padding-bottom: 50px;
+    margin-left: 20px;
+
+}
+.grande{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+.rosaFlipa{
+    background-color: #F6007C;
+    color: #fff;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 25px;
+
 }

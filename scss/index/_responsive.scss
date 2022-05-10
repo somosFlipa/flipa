@@ -221,12 +221,17 @@ nav{
             section.indexMainFormSection{
                 .indexMainFormTitle{
                     margin-top: -100px;
-                    margin-left: 25px;
+                    margin-left: 5px;
                     h3{
                         font-size: 32px;
                         margin-top: -50px;
-
+                        margin-left: -10px;
                     }
+                    svg{
+                        margin-top: -60px;
+                        margin-right: 20px;
+                      }
+
                 }
                 form{
                     display: flex;
@@ -235,6 +240,7 @@ nav{
                     font-size: 14px;
                     margin-right: 25px;
                     margin-top: -50px;
+
                     label{
                         font-size: 18px;
                     }
@@ -255,8 +261,6 @@ nav{
                     color: $white;
                     max-width: 100px;
                     margin-top: 45px;
-                    margin-left: auto;
-                    margin-right: auto;
 
                 }
             }

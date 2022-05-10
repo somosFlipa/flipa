@@ -31,7 +31,7 @@ header{
         height: 5px;
         width: 100px;
         color: #F6007C;
-        margin-left: 170px;
+        margin-left: 82px;
         margin-top: 130px;
         margin-bottom: -150px;
     }
@@ -67,28 +67,36 @@ header{
         }
     h1.flipart{
             color: #C20800;
+            margin-left: 82px;
         }
     button.flipart{
             background-color: #C20800;
+            margin-left: 82px;
         }
 
     h1.marketing{
             color: #BC38FF;
+            margin-left: 82px;
     }
     button.marketing{
         background-color: #BC38FF; 
+        margin-left: 82px;
     }
     h1.desarrollo{
         color: #FFCC00;
+        margin-left: 82px;
     }
     button.desarrollo{
         background-color: #FFCC00;
+        margin-left: 82px;
     }
     h1.garage{
         color: #1B46F4;
+        margin-left: 82px;
     }
     button.garage{
         background-color: #1B46F4;
+        margin-left: 82px;
     }
     .area{
         background-color: black;
@@ -102,5 +110,14 @@ header{
         margin-bottom: -120px;
         padding: 30px;
         font-family: 'Oswald', sans-serif;
+        margin-left: 85px;
+    }
+    p{
+        margin-left: 82px;
+    }
+    h1.sale{
+        color: #F6007C;
+        width: 100%;
+        margin-left: 82px;
     }
 }
