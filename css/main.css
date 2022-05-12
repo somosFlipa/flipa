@@ -468,6 +468,7 @@ select:hover {
   background: #161616; }
 
 .indexFooter {
+  width: 100%;
   background-color: #161616; }
   .indexFooter .indexFooterLogoTextsContainer {
     display: flex;
@@ -823,7 +824,7 @@ main section.sale-first .contenido {
 
 main section.sale-first .texto {
   width: 445px;
-  margin-left: 100px; }
+  margin-left: 82px; }
   main section.sale-first .texto h4 {
     width: 245px;
     text-align: start;
@@ -859,9 +860,11 @@ main section.sale-first .texto {
     font-family: "Oswald", sans-serif; }
 
 main section.sale-first .foto {
-  margin-left: 100px;
-  width: 500px;
-  background: yellow; }
+  margin-left: 82px;
+  width: 500px; }
+  main section.sale-first .foto img {
+    width: 100%;
+    height: 100%; }
 
 main section.sale-first .div-imagen {
   display: inline-block;
@@ -1033,7 +1036,7 @@ main section.firstDesign .rojoFlipa {
 
 @media screen and (max-width: 768px) {
   header hr {
-    margin-left: 10px; }
+    margin-left: 20px; }
   header h1 {
     font-size: 32px;
     margin-left: 20px;
@@ -1049,12 +1052,14 @@ main section.firstDesign .rojoFlipa {
   header .texto {
     width: 300px; }
     header .texto p {
-      margin-left: 10px;
+      margin-left: 20px;
       font-size: 12px;
       margin-right: -100px;
       width: 300px; }
   header .next {
     display: none; }
+  header h1.sale {
+    margin-left: 20px; }
   nav {
     background-color: #161616;
     max-height: 50px; }
@@ -1220,7 +1225,7 @@ main section.firstDesign .rojoFlipa {
       min-width: 321px;
       max-height: 126px;
       z-index: 1;
-      background-color: aqua; }
+      background-color: #161616b6; }
     main section.servicios .tarjeta .texto {
       margin-top: 10px;
       margin-left: 22px; }
@@ -1236,6 +1241,26 @@ main section.firstDesign .rojoFlipa {
       main section.servicios .tarjeta .texto button {
         background-color: transparent;
         border: none; }
+  main section.servicios .tarjeta.div1 {
+    background-image: url(../media/servicios/servicio_diseño.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div2 {
+    background-image: url(../media/servicios/social_media.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div3 {
+    background-image: url(../media/servicios/servicio_web.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div4 {
+    background-image: url(../media/servicios/servicio_apps.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div5 {
+    background-image: url(../media/servicios/servicio_ux.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
   main section.page .parent {
     display: grid;
     justify-items: center;
@@ -1280,8 +1305,7 @@ main section.firstDesign .rojoFlipa {
       min-width: 321px;
       max-height: 126px;
       z-index: 1;
-      background-color: aqua;
-      background-image: none; }
+      background-color: #161616b6; }
     main section.proyectos .tarjeta .texto {
       margin-top: 10px;
       margin-left: 22px; }
@@ -1297,7 +1321,90 @@ main section.firstDesign .rojoFlipa {
       main section.proyectos .tarjeta .texto button {
         background-color: transparent;
         border: none; }
+  main section.proyectos .tarjeta.div1 {
+    background-image: url(../media/servicios/servicio_diseño.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div2 {
+    background-image: url(../media/servicios/social_media.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div3 {
+    background-image: url(../media/servicios/servicio_web.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div4 {
+    background-image: url(../media/servicios/servicio_apps.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div5 {
+    background-image: url(../media/servicios/servicio_ux.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.sale-first .contenido {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+  main section.sale-first .texto {
+    width: 320px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; }
+    main section.sale-first .texto h4 {
+      width: 245px;
+      text-align: start;
+      font-size: 26px;
+      margin-left: 20px; }
+      main section.sale-first .texto h4 span {
+        color: #F6007C; }
+    main section.sale-first .texto p {
+      width: 300px;
+      font-family: "Lato", sans-serif;
+      margin-left: 20px; }
+    main section.sale-first .texto ul li {
+      font-family: "Lato", sans-serif;
+      width: 260px;
+      margin-left: 20px; }
+    main section.sale-first .texto button {
+      display: none; }
+    main section.sale-first .texto .tachado {
+      font-size: 21px;
+      font-weight: bold;
+      text-decoration: line-through #F6007C;
+      font-family: "Oswald", sans-serif;
+      margin-left: 20px; }
+    main section.sale-first .texto .oferta {
+      font-size: 48px;
+      font-weight: bold;
+      color: #F6007C;
+      font-family: "Oswald", sans-serif;
+      margin-left: 20px; }
+  main section.sale-first .foto {
+    width: 300px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    main section.sale-first .foto img {
+      width: 100%;
+      height: 100%; }
+  main section.sale-first .invertido {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
   footer.indexFooter {
+    width: 100%;
     display: grid;
     justify-items: start; }
     footer.indexFooter .none {
@@ -1328,3 +1435,261 @@ main section.firstDesign .rojoFlipa {
     footer.indexFooter .end {
       margin-top: 10px;
       margin-left: 40px; } }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  header hr {
+    margin-left: 50px; }
+  header h1 {
+    font-size: 60px;
+    margin-left: 50px;
+    max-width: 600px; }
+  header h2 {
+    font-size: 18px;
+    margin-left: 50px; }
+  header p {
+    margin-left: 50px;
+    font-size: 18px;
+    margin-right: -100px;
+    width: 600px; }
+  header .texto {
+    width: 600px; }
+    header .texto p {
+      margin-left: 50px;
+      font-size: 20px;
+      margin-right: -100px;
+      width: 600px; }
+  header .next {
+    margin-top: 150px; }
+  header h1.sale {
+    margin-left: 50px; }
+  header h1.flipart {
+    margin-left: 50px; }
+  header h1.marketing {
+    margin-left: 50px; }
+  header h1.desarrollo {
+    margin-left: 50px; }
+  header h1.garage {
+    margin-left: 50px; }
+  main section.servicios .parent {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    margin-bottom: 200px; }
+    main section.servicios .parent .texto p {
+      font-size: 12px; }
+  main section.servicios .tarjeta {
+    margin-top: 10px; }
+    main section.servicios .tarjeta .background {
+      left: 170px;
+      width: 642px;
+      height: 252px;
+      z-index: 1;
+      background-color: #161616b6; }
+    main section.servicios .tarjeta .texto {
+      margin-top: 100px;
+      margin-left: 22px; }
+      main section.servicios .tarjeta .texto p {
+        background-color: #F6007C;
+        color: #fff;
+        width: 83px;
+        height: 28px;
+        text-align: center;
+        padding-top: 5px; }
+      main section.servicios .tarjeta .texto h2 {
+        color: #fff;
+        font-size: 40px; }
+      main section.servicios .tarjeta .texto button {
+        background-color: transparent;
+        border: none; }
+  main section.servicios .tarjeta.div1 {
+    background-image: url(../media/servicios/servicio_diseño.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div2 {
+    background-image: url(../media/servicios/social_media.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div3 {
+    background-image: url(../media/servicios/servicio_web.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div4 {
+    background-image: url(../media/servicios/servicio_apps.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.servicios .tarjeta.div5 {
+    background-image: url(../media/servicios/servicio_ux.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .parent {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    margin-bottom: 200px; }
+    main section.proyectos .parent .texto p {
+      font-size: 12px; }
+  main section.proyectos .tarjeta {
+    margin-top: 10px; }
+    main section.proyectos .tarjeta .background {
+      left: 170px;
+      width: 642px;
+      height: 252px;
+      z-index: 1;
+      background-color: #161616b6; }
+    main section.proyectos .tarjeta .texto {
+      margin-top: 100px;
+      margin-left: 22px; }
+      main section.proyectos .tarjeta .texto p {
+        background-color: #F6007C;
+        color: #fff;
+        width: 83px;
+        height: 28px;
+        text-align: center;
+        padding-top: 5px; }
+      main section.proyectos .tarjeta .texto h2 {
+        color: #fff;
+        font-size: 40px; }
+      main section.proyectos .tarjeta .texto button {
+        background-color: transparent;
+        border: none; }
+  main section.proyectos .tarjeta.div1 {
+    background-image: url(../media/servicios/servicio_diseño.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div2 {
+    background-image: url(../media/servicios/social_media.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div3 {
+    background-image: url(../media/servicios/servicio_web.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div4 {
+    background-image: url(../media/servicios/servicio_apps.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.proyectos .tarjeta.div5 {
+    background-image: url(../media/servicios/servicio_ux.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main section.page .parent {
+    display: grid;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 200px;
+    margin-top: 50px; }
+    main section.page .parent div {
+      margin-top: 10px;
+      min-width: 600px;
+      max-height: 400px;
+      display: grid;
+      text-align: start; }
+      main section.page .parent div h2 {
+        margin-top: 120px;
+        font-size: 30px; }
+      main section.page .parent div p {
+        font-size: 18px;
+        width: 500px; }
+    main section.page .parent .div3 {
+      margin-bottom: -100px; }
+  main section.sale-first .contenido {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+  main section.sale-first .texto {
+    width: 600px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; }
+    main section.sale-first .texto h4 {
+      width: 545px;
+      text-align: start;
+      font-size: 26px; }
+      main section.sale-first .texto h4 span {
+        color: #F6007C; }
+    main section.sale-first .texto p {
+      width: 600px;
+      font-family: "Lato", sans-serif; }
+    main section.sale-first .texto ul li {
+      font-family: "Lato", sans-serif;
+      width: 260px; }
+    main section.sale-first .texto .tachado {
+      font-size: 21px;
+      font-weight: bold;
+      text-decoration: line-through #F6007C;
+      font-family: "Oswald", sans-serif;
+      margin-left: 20px; }
+    main section.sale-first .texto .oferta {
+      font-size: 48px;
+      font-weight: bold;
+      color: #F6007C;
+      font-family: "Oswald", sans-serif; }
+  main section.sale-first .foto {
+    width: 600px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    main section.sale-first .foto img {
+      width: 100%;
+      height: 100%; }
+  main section.sale-first .invertido {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+  footer.indexFooter {
+    width: 100%;
+    display: grid; }
+    footer.indexFooter .indexFooterLogoTextsContainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      justify-items: center; }
+    footer.indexFooter .footerLists {
+      margin-top: -50px; }
+      footer.indexFooter .footerLists .icons {
+        margin-top: 20px; }
+    footer.indexFooter img.flipa {
+      margin-left: 0; }
+    footer.indexFooter .footerListsContainer {
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 14px;
+      justify-items: center; }
+    footer.indexFooter .end {
+      margin-top: 10px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto; } }

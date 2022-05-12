@@ -370,7 +370,7 @@ section.sale-first{
         }
         .texto{
             width: 445px;
-            margin-left: 100px;
+            margin-left: 82px;
             h4{
                 width: 245px;
                 text-align: start;
@@ -417,9 +417,12 @@ section.sale-first{
             }
         }
         .foto{
-            margin-left: 100px;
+            margin-left: 82px;
             width: 500px;
-            background: yellow;    
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
         .div-imagen {
             a{

@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
     header{
         hr{
-            margin-left: 10px;
+            margin-left: 20px;
 
         }
         h1{
@@ -22,7 +22,7 @@
         .texto{
             width: 300px;
             p{
-            margin-left: 10px;
+            margin-left: 20px;
             font-size: 12px; 
             margin-right: -100px;   
             width: 300px;            
@@ -30,6 +30,9 @@
         }
         .next{ 
         display: none;
+        }
+        h1.sale{
+            margin-left: 20px;
         }
     }
 nav{
@@ -289,7 +292,7 @@ nav{
                         min-width: 321px;
                         max-height:126px;
                         z-index: 1;
-                        background-color: aqua;
+                        background-color: #161616b6;
                     }
                     .texto{
                         margin-top: 10px;
@@ -311,6 +314,32 @@ nav{
                         border: none;
                     }                    
                     }
+                }
+                .tarjeta.div1{
+                    background-image: url(../media/servicios/servicio_diseño.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                }
+                .tarjeta.div2{
+                    background-image: url(../media/servicios/social_media.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div3{
+                    background-image: url(../media/servicios/servicio_web.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div4{
+                    background-image: url(../media/servicios/servicio_apps.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div5{
+                    background-image: url(../media/servicios/servicio_ux.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
                 }
             }
             section.page{
@@ -367,14 +396,16 @@ nav{
                 }
                 .tarjeta{
                     margin-top: 10px;
+
                     .background{
                         left: 170px;
                         min-width: 321px;
                         max-height:126px;
                         z-index: 1;
-                        background-color:aqua;
-                        background-image: none;
+                        background-color: #161616b6;
+
                     }
+
                     .texto{
                         margin-top: 10px;
                         margin-left: 22px;
@@ -396,9 +427,116 @@ nav{
                     }                    
                     }
                 }
+                .tarjeta.div1{
+                    background-image: url(../media/servicios/servicio_diseño.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div2{
+                    background-image: url(../media/servicios/social_media.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div3{
+                    background-image: url(../media/servicios/servicio_web.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div4{
+                    background-image: url(../media/servicios/servicio_apps.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .tarjeta.div5{
+                    background-image: url(../media/servicios/servicio_ux.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+            section.sale-first{
+                .contenido {
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    justify-items:center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    }
+                    .texto{
+                        width: 320px;
+                        justify-items:center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 40px;
+                        h4{
+                            width: 245px;
+                            text-align: start;
+                            font-size: 26px;
+                            margin-left: 20px;
+                            span{
+                                color: #F6007C;
+                            }
+                        }
+                        p{
+                            width: 300px;
+                            font-family: $lato;
+                            margin-left: 20px;
+                        }
+                        ul{
+                            li{
+                            font-family: $lato; 
+                            width: 260px;        
+                            margin-left: 20px;           
+                            }
+            
+                        }
+                        button{
+                            display: none;
+                        }
+
+                        .tachado{
+                            font-size: 21px;
+                            font-weight: bold;
+                            text-decoration: line-through #F6007C;
+                            font-family: $oswald;
+                            margin-left: 20px;
+                        }
+                        .oferta{
+                            font-size: 48px;
+                            font-weight: bold;
+                            color: #F6007C;
+                            font-family: $oswald;
+                            margin-left: 20px;
+                        }
+                    }
+                    .foto{
+                        width: 300px;
+                        justify-items:center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .invertido{
+                        margin-top: 0px;
+                        margin-bottom: 100px;
+                        display: flex;
+                        flex-direction: column-reverse;
+
+                        justify-items:center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
             }
         }
     footer.indexFooter{
+        width: 100%;
         display: grid;
         justify-items: start;
         .none{
@@ -441,3 +579,361 @@ nav{
             }
             }
     }
+
+@media (min-width: 769px) and (max-width:1200px){
+    header{
+        hr{
+            margin-left: 50px;
+
+        }
+        h1{
+            font-size: 60px;
+            margin-left: 50px;
+            max-width: 600px;
+
+        }
+        h2{
+            font-size: 18px;
+            margin-left: 50px;
+        }
+        p{
+            margin-left: 50px;
+            font-size: 18px; 
+            margin-right: -100px;   
+            width: 600px;  
+        }
+        .texto{
+            width: 600px;
+            p{
+            margin-left: 50px;
+            font-size: 20px; 
+            margin-right: -100px;   
+            width: 600px;            
+            }
+        }
+        .next{
+            margin-top: 150px;
+        }
+        h1.sale{
+            margin-left: 50px;
+        }
+        h1.flipart{
+            margin-left: 50px;
+        }
+        h1.marketing{
+            margin-left: 50px;
+        }
+        h1.desarrollo{
+            margin-left: 50px;
+        }
+        h1.garage{
+            margin-left: 50px;
+        }
+    }
+
+main{
+    section.servicios{
+        .parent{
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+            justify-items: center;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 5fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            .texto{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .tarjeta{
+            margin-top: 10px;
+            .background{
+                left: 170px;
+                width: 642px;
+                height:252px;
+                z-index: 1;
+                background-color: #161616b6;
+            }
+            .texto{
+                margin-top: 100px;
+                margin-left: 22px;
+            p{
+                background-color: #F6007C;
+                color: #fff;
+                width: 83px;
+                height: 28px;
+                text-align: center;
+                padding-top: 5px;
+            }
+            h2{
+                color: #fff;
+                font-size: 40px;
+                
+            }
+            button{
+                background-color: transparent;
+                border: none;
+            }                    
+            }
+        }
+        .tarjeta.div1{
+            background-image: url(../media/servicios/servicio_diseño.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+        .tarjeta.div2{
+            background-image: url(../media/servicios/social_media.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div3{
+            background-image: url(../media/servicios/servicio_web.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div4{
+            background-image: url(../media/servicios/servicio_apps.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div5{
+            background-image: url(../media/servicios/servicio_ux.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    section.proyectos{
+        .parent{
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+            justify-items: center;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 5fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            .texto{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .tarjeta{
+            margin-top: 10px;
+
+            .background{
+                left: 170px;
+                width: 642px;
+                height:252px;
+                z-index: 1;
+                background-color: #161616b6;
+
+            }
+
+            .texto{
+                margin-top: 100px;
+                margin-left: 22px;
+            p{
+                background-color: #F6007C;
+                color: #fff;
+                width: 83px;
+                height: 28px;
+                text-align: center;
+                padding-top: 5px;
+            }
+            h2{
+                color: #fff;
+                font-size: 40px;
+            }
+            button{
+                background-color: transparent;
+                border: none;
+            }                    
+            }
+        }
+        .tarjeta.div1{
+            background-image: url(../media/servicios/servicio_diseño.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div2{
+            background-image: url(../media/servicios/social_media.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div3{
+            background-image: url(../media/servicios/servicio_web.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div4{
+            background-image: url(../media/servicios/servicio_apps.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .tarjeta.div5{
+            background-image: url(../media/servicios/servicio_ux.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    section.page{
+        .parent{
+            display: grid;
+            justify-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 3fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-bottom: 200px;
+            margin-top: 50px;
+            div{
+                margin-top: 10px;
+                min-width: 600px;
+                max-height: 400px;
+                display: grid;
+                text-align: start;
+                h2{
+                    margin-top: 120px;  
+                    font-size: 30px;
+                }
+                p{
+                 font-size: 18px;
+                 width: 500px;
+                }
+                
+                
+            }
+            .div3{
+                margin-bottom: -100px;
+            }
+        }
+
+    }
+    section.sale-first{
+        .contenido {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            justify-items:center;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .texto{
+                width: 600px;
+                justify-items:center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                h4{
+                    width: 545px;
+                    text-align: start;
+                    font-size: 26px;
+
+                    span{
+                        color: #F6007C;
+                    }
+                }
+                p{
+                    width: 600px;
+                    font-family: $lato;
+
+                }
+                ul{
+                    li{
+                    font-family: $lato; 
+                    width: 260px;        
+          
+                    }
+    
+                }
+
+
+                .tachado{
+                    font-size: 21px;
+                    font-weight: bold;
+                    text-decoration: line-through #F6007C;
+                    font-family: $oswald;
+                    margin-left: 20px;
+                }
+                .oferta{
+                    font-size: 48px;
+                    font-weight: bold;
+                    color: #F6007C;
+                    font-family: $oswald;
+
+                }
+            }
+            .foto{
+                width: 600px;
+                justify-items:center;
+                margin-left: auto;
+                margin-right: auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .invertido{
+                margin-top: 0px;
+                margin-bottom: 100px;
+                display: flex;
+                flex-direction: column-reverse;
+
+                justify-items:center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    }
+}
+    // footer
+    footer.indexFooter{
+        width: 100%;
+        display: grid;
+         .indexFooterLogoTextsContainer{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            justify-items: center;
+            }
+            .footerLists{
+                margin-top: -50px;
+                .icons{
+                    margin-top: 20px;
+                }
+            }
+            img.flipa{
+                margin-left: 0;
+            }
+            .footerListsContainer{
+                margin-right: auto;
+                margin-left: auto;
+                font-size: 14px;
+                justify-items: center;
+            }
+            .end{
+                margin-top:10px;
+                text-align: center;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            }
+}
