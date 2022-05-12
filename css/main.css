@@ -473,11 +473,10 @@ select:hover {
   .indexFooter .indexFooterLogoTextsContainer {
     display: flex;
     justify-content: space-around; }
-  .indexFooter a img.flipa {
-    width: 390.33px;
-    height: 111.75px;
-    margin-top: 120px;
-    margin-left: 150px; }
+  .indexFooter a svg {
+    margin: 150px;
+    width: 400px;
+    height: auto; }
   .indexFooter .end {
     margin-top: 80px;
     margin-left: 619px;
@@ -506,7 +505,7 @@ select:hover {
 nav {
   background-color: #161616;
   height: 80px; }
-  nav .navbar-brand img {
+  nav .navbar-brand svg {
     width: 50px;
     height: 50px;
     margin-top: 50px;
@@ -812,6 +811,41 @@ main section.sitios .div-imagen > div {
 
 main .proximamente {
   width: 100%; }
+  main .proximamente .contenedor {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+  main .proximamente .div1 {
+    margin-left: 82px;
+    margin-top: 100px; }
+    main .proximamente .div1 hr {
+      width: 80px;
+      color: #F6007C; }
+    main .proximamente .div1 h2 {
+      color: #F6007C;
+      font-size: 125px;
+      width: 200%; }
+      main .proximamente .div1 h2 img {
+        width: 150px;
+        height: 150px;
+        margin-top: -40px; }
+    main .proximamente .div1 p {
+      font-size: 24px;
+      font-family: 'Lato', sans-serif; }
+    main .proximamente .div1 button {
+      width: 250px;
+      height: 50px;
+      background-color: #F6007C;
+      color: #fff;
+      border: none;
+      border-radius: 5px; }
+  main .proximamente .div2 img {
+    width: 750px;
+    height: 750px; }
 
 main section.sale-first .contenido {
   margin-top: 150px;
@@ -1060,27 +1094,20 @@ main section.firstDesign .rojoFlipa {
     display: none; }
   header h1.sale {
     margin-left: 20px; }
-  nav {
-    background-color: #161616;
-    max-height: 50px; }
-    nav .offcanvas {
-      width: 200px;
-      background-color: #161616; }
-    nav .container-fluid {
-      margin-top: -60px; }
-      nav .container-fluid .button {
-        z-index: 3; }
-        nav .container-fluid .button .navbar-toggler {
-          margin-top: 50px;
-          width: 70px; }
-          nav .container-fluid .button .navbar-toggler .navbar-toggler-icon {
-            margin-left: -30px; }
-      nav .container-fluid .navbar-brand img {
-        width: 30px;
-        height: 30px;
-        z-index: 3;
-        margin-left: 10px;
-        padding-left: 0px; }
+  header h1.flipart {
+    margin-left: 20px; }
+  header h1.marketing {
+    margin-left: 20px; }
+  header h1.desarrollo {
+    margin-left: 20px; }
+  header h1.garage {
+    margin-left: 20px; }
+  nav .navbar-brand svg {
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+    margin-left: 10px;
+    padding-left: 0px; }
   main a.link {
     display: none; }
     main a.link p {
@@ -1100,6 +1127,8 @@ main section.firstDesign .rojoFlipa {
       font-size: 42px; }
     main section.indexMainTitle h2 {
       font-size: 16px; }
+    main section.indexMainTitle button {
+      width: 50%; }
   main section.first {
     display: grid;
     margin-left: auto;
@@ -1416,16 +1445,13 @@ main section.firstDesign .rojoFlipa {
       grid-column-gap: 0px;
       grid-row-gap: 0px;
       justify-items: start; }
-    footer.indexFooter a {
-      display: grid;
-      margin-left: auto;
-      margin-right: auto; }
-      footer.indexFooter a img.flipa {
-        width: 195.16px;
-        height: 55.87px;
-        margin-left: 25px; }
+    footer.indexFooter a svg {
+      width: 195.16px;
+      height: 55.87px;
+      margin-left: 25px; }
     footer.indexFooter .footerLists {
-      margin-top: -50px; }
+      margin-top: -200px;
+      margin-left: -85px; }
       footer.indexFooter .footerLists .icons {
         margin-top: 20px; }
     footer.indexFooter .footerListsContainer {
@@ -1433,8 +1459,10 @@ main section.firstDesign .rojoFlipa {
       margin-left: auto;
       font-size: 14px; }
     footer.indexFooter .end {
-      margin-top: 10px;
-      margin-left: 40px; } }
+      margin-top: -300px;
+      margin-left: 40px;
+      padding-bottom: 10px;
+      width: 50%; } }
 
 @media (min-width: 769px) and (max-width: 1200px) {
   header hr {
