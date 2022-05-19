@@ -117,7 +117,7 @@ header h1.sale {
   margin-left: 82px; }
 
 .indexMainTitle {
-  background-image: url(../media/bg_home.png);
+  background-image: url(../media/bg_home.webp);
   background-attachment: fixed;
   background-size: cover;
   color: #FFFFFF;
@@ -479,7 +479,7 @@ select:hover {
     height: auto; }
   .indexFooter .end {
     margin-top: 80px;
-    margin-left: 619px;
+    margin-left: 700px;
     padding-bottom: 20px;
     color: #fff;
     font-size: 16px; }
@@ -646,29 +646,29 @@ main section.page .parent {
     display: grid;
     text-align: start; }
   main section.page .parent .flipart.div1 {
-    background-image: url(../media/flipart/flipart_artistic.png); }
+    background-image: url(../media/flipart/flip1.webp); }
   main section.page .parent .flipart.div2 {
-    background-image: url(../media/flipart/flipart_branding.png); }
+    background-image: url(../media/flipart/flip2.webp); }
   main section.page .parent .flipart.div3 {
-    background-image: url(../media/flipart/flipart_socialmedia.png); }
+    background-image: url(../media/flipart/flip2.webp); }
   main section.page .parent .marketing.div1 {
-    background-image: url(../media/mkt/mkt_socialmedia.png); }
+    background-image: url(../media/mkt/mkt1.webp); }
   main section.page .parent .marketing.div2 {
-    background-image: url(../media/mkt/mkt_campañas.png); }
+    background-image: url(../media/mkt/mkt2.webp); }
   main section.page .parent .marketing.div3 {
-    background-image: url(../media/mkt/mkt_estrategias.png); }
+    background-image: url(../media/mkt/mkt3.png); }
   main section.page .parent .desarrollo.div1 {
-    background-image: url(../media/web/web_sitioweb.png); }
+    background-image: url(../media/web/web1.png); }
   main section.page .parent .desarrollo.div2 {
-    background-image: url(../media/web/web_landing.png); }
+    background-image: url(../media/web/web2.png); }
   main section.page .parent .desarrollo.div3 {
-    background-image: url(../media/web/web_wordpress.png); }
+    background-image: url(../media/web/web3.png); }
   main section.page .parent .garage.div1 {
-    background-image: url(../media/garage/garage_plataformas.png); }
+    background-image: url(../media/garage/gar1.webp); }
   main section.page .parent .garage.div2 {
-    background-image: url(../media/garage/garage_apps.png); }
+    background-image: url(../media/garage/gar2.webp); }
   main section.page .parent .garage.div3 {
-    background-image: url(../media/garage/garage_uxui.png); }
+    background-image: url(../media/garage/gar3.webp); }
   main section.page .parent h2 {
     margin-left: 37px;
     font-size: 40px;
@@ -754,21 +754,21 @@ main section.sitios .items15:nth-child(1n) {
 main section.sitios .items16:nth-child(1n) {
   grid-row: span 35;
   grid-column: span 1;
-  background-image: url(../media/adiches-tech/plantilla-flipa-sitio.png);
+  background-image: url(../media/afiches-tech/fli-l.webp);
   background-size: cover;
   background-repeat: no-repeat; }
 
 main section.sitios .items17:nth-child(1n) {
   grid-row: span 35;
   grid-column: span 1;
-  background-image: url(../media/adiches-tech/panda-sitio.png);
+  background-image: url(../media/afiches-tech/pan-l.webp);
   background-size: cover;
   background-repeat: no-repeat; }
 
 main section.sitios .items18:nth-child(1n) {
   grid-row: span 35;
   grid-column: span 1;
-  background-image: url(../media/adiches-tech/trex-sitio.png);
+  background-image: url(../media/afiches-tech/trx-l.webp);
   background-size: cover;
   background-repeat: no-repeat; }
 

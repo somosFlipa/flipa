@@ -153,40 +153,40 @@ main{
             }
                             
             .flipart.div1{
-                background-image: url(../media/flipart/flipart_artistic.png);
+                background-image: url(../media/flipart/flip1.webp);
             }
             .flipart.div2{
-                background-image: url(../media/flipart/flipart_branding.png);
+                background-image: url(../media/flipart/flip2.webp);
             }
             .flipart.div3{
-                background-image: url(../media/flipart/flipart_socialmedia.png);
+                background-image: url(../media/flipart/flip2.webp);
             }
             .marketing.div1{
-                background-image: url(../media/mkt/mkt_socialmedia.png);
+                background-image: url(../media/mkt/mkt1.webp);
             }
             .marketing.div2{
-                background-image: url(../media/mkt/mkt_campañas.png);
+                background-image: url(../media/mkt/mkt2.webp);
             }
             .marketing.div3{
-                background-image: url(../media/mkt/mkt_estrategias.png);
+                background-image: url(../media/mkt/mkt3.png);
             }
             .desarrollo.div1{
-                background-image: url(../media/web/web_sitioweb.png);
+                background-image: url(../media/web/web1.png);
             }
             .desarrollo.div2{
-                background-image: url(../media/web/web_landing.png);
+                background-image: url(../media/web/web2.png);
             }
             .desarrollo.div3{
-                background-image: url(../media/web/web_wordpress.png);
+                background-image: url(../media/web/web3.png);
             }
             .garage.div1{
-                background-image: url(../media/garage/garage_plataformas.png);
+                background-image: url(../media/garage/gar1.webp);
             }
             .garage.div2{
-                background-image: url(../media/garage/garage_apps.png);
+                background-image: url(../media/garage/gar2.webp);
             }
             .garage.div3{
-                background-image: url(../media/garage/garage_uxui.png);
+                background-image: url(../media/garage/gar3.webp);
             }
             h2{
                 margin-left: 37px;
@@ -286,7 +286,7 @@ main{
         .items16:nth-child(1n){
             grid-row: span 35;
             grid-column: span 1;
-            background-image: url(../media/adiches-tech/plantilla-flipa-sitio.png);
+            background-image: url(../media/afiches-tech/fli-l.webp);
             background-size: cover;
             background-repeat: no-repeat;
 
@@ -294,14 +294,14 @@ main{
         .items17:nth-child(1n){
             grid-row: span 35;
             grid-column: span 1;
-            background-image: url(../media/adiches-tech/panda-sitio.png);
+            background-image: url(../media/afiches-tech/pan-l.webp);
             background-size: cover;
             background-repeat: no-repeat;
         }
         .items18:nth-child(1n){
             grid-row: span 35;
             grid-column: span 1;
-            background-image: url(../media/adiches-tech/trex-sitio.png);
+            background-image: url(../media/afiches-tech/trx-l.webp);
             background-size: cover;
             background-repeat: no-repeat;
         }
